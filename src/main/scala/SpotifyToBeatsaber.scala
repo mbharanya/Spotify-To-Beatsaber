@@ -1,10 +1,13 @@
 import java.io.File
+import java.nio.charset.StandardCharsets
+import java.nio.file.{Files, Paths}
 import java.util.concurrent.Executors
 
 import com.wrapper.spotify.model_objects.specification.SavedTrack
 
 import scala.concurrent.ExecutionContext
 import scala.util.Try
+import scalaj.http._
 
 object SpotifyToBeatsaber {
   def main(args: Array[String]): Unit = {
@@ -26,22 +29,18 @@ object SpotifyToBeatsaber {
         case Left(error) => System.err.println(s"Could not find ${track.getArtists()(0).getName} ${track.getName}: ${error}")
         case Right(result) => {
           println(s"\nFound song '${track.getArtists()(0).getName} ${track.getName}' <-> '${result.name}', ${result.downloads} downloads, ${result.downloadUrl}")
-          fileDownloader(result.downloadUrl, s"${downloadFolder}${File.separator}${result.name}.zip")
+          download(result.downloadUrl, s"${downloadFolder}${File.separator}${result.name}.zip")
         }
       }
     }
   }
 
-  import java.io.File
-  import java.net.URL
 
-  import sys.process._
-
-  def fileDownloader(url: String, filename: String) = {
-    new URL(url) #> new File(filename) !!;
+  def download(url: String, filename: String) ={
+    val response: HttpResponse[String] = Http(url).header("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0").asString
+    Files.write(new File(filename).toPath, response.body.getBytes(StandardCharsets.UTF_8))
     println(s"Downloaded ${new File(filename).getAbsolutePath}")
   }
-
 
 }
 

@@ -13,3 +13,4 @@ libraryDependencies += "io.argonaut" %% "argonaut" % "6.2.3"
 resolvers += Resolver.bintrayIvyRepo("sbt", "sbt-plugin-releases")
 
 
+libraryDependencies +=  "org.scalaj" %% "scalaj-http" % "2.4.2"
