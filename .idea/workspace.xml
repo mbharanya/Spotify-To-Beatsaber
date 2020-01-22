@@ -1,37 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e9af16e-6128-4d58-8652-208573fa7bf6" name="Default Changelist" comment="Add levenshtein">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_vickumar1981_stringdistance_2_12_1_1_4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_io_commons_io_2_6_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_9_10_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_9_10_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_9_10_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_9_10_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_9_10_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_9_10_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_code_gson_gson_2_8_5_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_code_gson_gson_2_8_5_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_neovisionaries_nv_i18n_1_23_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_neovisionaries_nv_i18n_1_23_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_codec_commons_codec_1_10_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_codec_commons_codec_1_10_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_logging_commons_logging_1_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_logging_commons_logging_1_2_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_argonaut_argonaut_2_12_6_2_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_argonaut_argonaut_2_12_6_2_3_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_5_5_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_5_5_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_cache_4_5_5_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_cache_4_5_5_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_4_9_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_4_9_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_12_0_9_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_12_0_9_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_2_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_2_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_8_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_8_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_8_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_8_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_12_3_1_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_12_3_1_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalaj_scalaj_http_2_12_2_4_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_12_3_1_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_12_3_1_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_compatible_3_1_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_compatible_3_1_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__se_michaelthelin_spotify_spotify_web_api_java_4_0_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__se_michaelthelin_spotify_spotify_web_api_java_4_0_2_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spotify-2-beatsaber-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spotify-2-beatsaber-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spotify-2-beatsaber.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spotify-2-beatsaber.iml" afterDir="false" />
+    <list default="true" id="5e9af16e-6128-4d58-8652-208573fa7bf6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/SongResource.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/SongResource.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Downloader.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Downloader.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +113,7 @@
       <recent name="org.scalatest.FunSuite" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SpotifyToBeatsaber">
+  <component name="RunManager" selected="ScalaTest.DownloaderTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -260,8 +232,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SpotifyToBeatsaber" />
         <item itemvalue="ScalaTest.DownloaderTest" />
+        <item itemvalue="Application.SpotifyToBeatsaber" />
         <item itemvalue="ScalaTest.DownloaderTest.Downloader should download url as well" />
         <item itemvalue="ScalaTest.DownloaderTest.Downloader should download url" />
         <item itemvalue="ScalaTest.BeatsaverSongResourceTest" />
@@ -379,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579728123719</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Try to fix jar issues">
+      <created>1579731384767</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1579731384767</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -396,7 +375,8 @@
     <MESSAGE value="Fix download issues" />
     <MESSAGE value="Add levenshtein" />
     <MESSAGE value="Fix error handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix error handling" />
+    <MESSAGE value="Try to fix jar issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="Try to fix jar issues" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1809" y="908" key="#Plugins" timestamp="1579720555028">
@@ -411,10 +391,10 @@
       <screen x="0" y="0" width="3840" height="2099" />
     </state>
     <state x="1518" y="993" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579721283389" />
-    <state x="1242" y="893" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579731118205">
+    <state x="1242" y="893" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579731582566">
       <screen x="0" y="0" width="3840" height="2099" />
     </state>
-    <state x="1242" y="893" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579731118205" />
+    <state x="1242" y="893" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579731582566" />
     <state x="2034" y="1164" width="380" height="171" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1579720667729">
       <screen x="0" y="0" width="3840" height="2099" />
     </state>
@@ -427,26 +407,26 @@
       <screen x="0" y="0" width="3840" height="2099" />
     </state>
     <state x="1251" y="1172" key="#xdebugger.evaluate/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579725101600" />
-    <state x="1400" y="833" width="1878" height="1077" key="CommitChangelistDialog2" timestamp="1579728122857">
+    <state x="1400" y="833" width="1878" height="1077" key="CommitChangelistDialog2" timestamp="1579731383174">
       <screen x="0" y="0" width="3840" height="2099" />
     </state>
-    <state x="1400" y="833" width="1878" height="1077" key="CommitChangelistDialog2/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579728122857" />
-    <state width="1246" height="489" key="GridCell.Tab.0.bottom" timestamp="1579731183913">
+    <state x="1400" y="833" width="1878" height="1077" key="CommitChangelistDialog2/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579731383174" />
+    <state width="1246" height="522" key="GridCell.Tab.0.bottom" timestamp="1579731615145">
       <screen x="0" y="0" width="3840" height="2099" />
     </state>
-    <state width="1246" height="489" key="GridCell.Tab.0.bottom/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579731183913" />
-    <state width="1246" height="489" key="GridCell.Tab.0.center" timestamp="1579731183913">
+    <state width="1246" height="522" key="GridCell.Tab.0.bottom/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579731615145" />
+    <state width="1246" height="522" key="GridCell.Tab.0.center" timestamp="1579731615145">
       <screen x="0" y="0" width="3840" height="2099" />
     </state>
-    <state width="1246" height="489" key="GridCell.Tab.0.center/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579731183913" />
-    <state width="1246" height="489" key="GridCell.Tab.0.left" timestamp="1579731183913">
+    <state width="1246" height="522" key="GridCell.Tab.0.center/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579731615145" />
+    <state width="1246" height="522" key="GridCell.Tab.0.left" timestamp="1579731615145">
       <screen x="0" y="0" width="3840" height="2099" />
     </state>
-    <state width="1246" height="489" key="GridCell.Tab.0.left/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579731183913" />
-    <state width="1246" height="489" key="GridCell.Tab.0.right" timestamp="1579731183913">
+    <state width="1246" height="522" key="GridCell.Tab.0.left/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579731615145" />
+    <state width="1246" height="522" key="GridCell.Tab.0.right" timestamp="1579731615145">
       <screen x="0" y="0" width="3840" height="2099" />
     </state>
-    <state width="1246" height="489" key="GridCell.Tab.0.right/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579731183913" />
+    <state width="1246" height="522" key="GridCell.Tab.0.right/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579731615145" />
     <state width="1246" height="489" key="GridCell.Tab.1.bottom" timestamp="1579731183914">
       <screen x="0" y="0" width="3840" height="2099" />
     </state>
@@ -463,22 +443,26 @@
       <screen x="0" y="0" width="3840" height="2099" />
     </state>
     <state width="1246" height="489" key="GridCell.Tab.1.right/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579731183914" />
-    <state x="1380" y="971" key="Vcs.Push.Dialog.v2" timestamp="1579728130589">
+    <state x="1380" y="971" key="Vcs.Push.Dialog.v2" timestamp="1579731393215">
       <screen x="0" y="0" width="3840" height="2099" />
     </state>
-    <state x="1380" y="971" key="Vcs.Push.Dialog.v2/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579728130589" />
+    <state x="1380" y="971" key="Vcs.Push.Dialog.v2/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579731393215" />
     <state x="1621" y="874" key="com.intellij.ide.util.TipDialog" timestamp="1579720567707">
       <screen x="0" y="0" width="3840" height="2099" />
     </state>
     <state x="1621" y="874" key="com.intellij.ide.util.TipDialog/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579720567707" />
+    <state x="2136" y="1106" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1579731360481">
+      <screen x="0" y="0" width="3840" height="2099" />
+    </state>
+    <state x="2136" y="1106" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579731360481" />
     <state x="1559" y="957" key="org.jetbrains.plugins.scala.testingSupport.ScalaTestCreator$$anon$1$$anon$2" timestamp="1579721272742">
       <screen x="0" y="0" width="3840" height="2099" />
     </state>
     <state x="1559" y="957" key="org.jetbrains.plugins.scala.testingSupport.ScalaTestCreator$$anon$1$$anon$2/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579721272742" />
-    <state x="1880" y="863" width="672" height="678" key="search.everywhere.popup" timestamp="1579725191615">
+    <state x="1880" y="863" width="672" height="678" key="search.everywhere.popup" timestamp="1579731584694">
       <screen x="0" y="0" width="3840" height="2099" />
     </state>
-    <state x="1880" y="863" width="672" height="678" key="search.everywhere.popup/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579725191615" />
+    <state x="1880" y="863" width="672" height="678" key="search.everywhere.popup/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579731584694" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

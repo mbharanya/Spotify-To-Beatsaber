@@ -1,6 +1,8 @@
-import java.io.{File}
+import java.io.File
 import java.net.URL
 import java.nio.file.Files
+
+import org.apache.commons.io.IOUtils
 
 
 object Downloader {
@@ -16,7 +18,7 @@ object Downloader {
       case (name, value) => connection.setRequestProperty(name, value)
     })
 
-    Files.write(new File(filename).toPath, connection.getInputStream.readAllBytes())
+    Files.write(new File(filename).toPath, IOUtils.toByteArray(connection.getInputStream))
     println(s"Downloaded ${new File(filename).getAbsolutePath}")
   }
 }
