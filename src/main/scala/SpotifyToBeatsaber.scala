@@ -1,10 +1,7 @@
 import java.io.File
-import java.net.URL
-import java.nio.file.FileSystem
 import java.util.concurrent.Executors
 
 import com.wrapper.spotify.model_objects.specification.SavedTrack
-import org.apache.commons.io.FileUtils
 
 import scala.concurrent.ExecutionContext
 import scala.util.Try
@@ -26,20 +23,23 @@ object SpotifyToBeatsaber {
       val track = savedTrack.getTrack
       val searchResult = songResource.find(track.getArtists()(0).getName, track.getName)
       searchResult match {
-        case Left(error) => println(s"Could not find ${track.getArtists()(0).getName} ${track.getName}: ${error}")
+        case Left(error) => System.err.println(s"Could not find ${track.getArtists()(0).getName} ${track.getName}: ${error}")
         case Right(result) => {
           println(s"\nFound song '${track.getArtists()(0).getName} ${track.getName}' <-> '${result.name}', ${result.downloads} downloads, ${result.downloadUrl}")
-          downloadFile(result.downloadUrl, filepath = s"${downloadFolder}${File.separator}${result.name}.zip")
+          fileDownloader(result.downloadUrl, s"${downloadFolder}${File.separator}${result.name}.zip")
         }
       }
     }
   }
 
+  import java.io.File
+  import java.net.URL
 
-  def downloadFile(url: String, filepath: String): Unit = {
-    println(s"Will download ${url} to ${new File(filepath).getAbsolutePath}")
-    FileUtils.copyURLToFile(new URL(url), new File(filepath))
-    println("Downloaded " + filepath)
+  import sys.process._
+
+  def fileDownloader(url: String, filename: String) = {
+    new URL(url) #> new File(filename) !!;
+    println(s"Downloaded ${new File(filename).getAbsolutePath}")
   }
 
 
