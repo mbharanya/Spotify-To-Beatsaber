@@ -1,28 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e9af16e-6128-4d58-8652-208573fa7bf6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_argonaut_argonaut_2_12_6_2_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_12_0_9_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_8_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_8_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_12_3_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_12_3_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="5e9af16e-6128-4d58-8652-208573fa7bf6" name="Default Changelist" comment="Add levenshtein">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_vickumar1981_stringdistance_2_12_1_1_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_io_commons_io_2_6_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_9_10_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_9_10_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_9_10_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_9_10_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_9_10_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_9_10_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_code_gson_gson_2_8_5_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_code_gson_gson_2_8_5_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_neovisionaries_nv_i18n_1_23_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_neovisionaries_nv_i18n_1_23_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_codec_commons_codec_1_10_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_codec_commons_codec_1_10_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_logging_commons_logging_1_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_logging_commons_logging_1_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_argonaut_argonaut_2_12_6_2_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_argonaut_argonaut_2_12_6_2_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_5_5_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_5_5_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_cache_4_5_5_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_cache_4_5_5_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_4_9_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_4_9_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_12_0_9_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_12_0_9_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_2_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_2_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_8_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_8_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_8_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_8_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_12_3_1_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_12_3_1_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalaj_scalaj_http_2_12_2_4_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_12_3_1_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_12_3_1_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_compatible_3_1_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_compatible_3_1_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__se_michaelthelin_spotify_spotify_web_api_java_4_0_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__se_michaelthelin_spotify_spotify_web_api_java_4_0_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/spotify-2-beatsaber-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spotify-2-beatsaber-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/spotify-2-beatsaber.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spotify-2-beatsaber.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Spotify.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Spotify.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/SpotifyToBeatsaber.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/SpotifyToBeatsaber.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/SongResource.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/SongResource.scala" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/project/project/target/" />
-    <ignored path="$PROJECT_DIR$/project/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -63,112 +80,6 @@
       </state>
     </system>
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/SpotifyToBeatsaber.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#90#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/Spotify.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-              <folding>
-                <element signature="e#1#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/SongResource.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.sbt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/io/BufferedInputStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4695">
-              <caret line="338" column="28" selection-start-line="338" selection-start-column="28" selection-end-line="338" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Thread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="833" selection-start-line="833" selection-end-line="833" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.3/librarymanagement-core_2.12-1.3.0.jar!/sbt/librarymanagement/DependencyBuilders.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0-sources.jar!/scala/compat/java8/FutureConverters.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="86" column="6" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="195">
-                <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -188,85 +99,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/scala/SpotifyBackup.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/SongResource.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/BeatsaverSongResourceTest.scala" />
-        <option value="$PROJECT_DIR$/project/plugins.sbt" />
-        <option value="$PROJECT_DIR$/src/main/scala/Spotify.scala" />
-        <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/src/main/scala/SpotifyToBeatsaber.scala" />
-        <option value="$PROJECT_DIR$/README.md" />
-      </list>
-    </option>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1440" />
-    <option name="y" value="-461" />
-    <option name="width" value="2255" />
-    <option name="height" value="1361" />
-  </component>
+  <component name="ProjectId" id="1WlNt1gGAMzsQZoOTesGEenG8Hu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="spotify-2-beatsaber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spotify-2-beatsaber" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spotify-2-beatsaber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spotify-2-beatsaber" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spotify-2-beatsaber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spotify-2-beatsaber" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spotify-2-beatsaber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spotify-2-beatsaber" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spotify-2-beatsaber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spotify-2-beatsaber" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spotify-2-beatsaber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spotify-2-beatsaber" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spotify-2-beatsaber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spotify-2-beatsaber" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="scala-2.12" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spotify-2-beatsaber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="GO_FMT" value="true" />
@@ -286,6 +127,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -297,18 +141,6 @@
       <recent name="org.scalatest.FunSuite" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="Application.SpotifyToBeatsaber">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -319,7 +151,7 @@
     <configuration name="SpotifyToBeatsaber" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="SpotifyToBeatsaber" />
       <module name="spotify-2-beatsaber" />
-      <option name="PROGRAM_PARAMETERS" value="BQBesI-emD844K9XCSUAMvioyyPxMX1qsZduih-ghFp2yAfuvLied2ycMVsPTFkNLMeWJntCySiVx0bV8Z8HSxgoREMj98_aRk8tQMgaRRCWAOMjAaJD_JqdbnweOBlIxNE_FyZSFEZCojgqEKEy2Wbp1wLsL_sN7Q" />
+      <option name="PROGRAM_PARAMETERS" value="BQCIg5aVlknSDZTpz9LhEPK2x8Z1zuzYX7gchKB0fVhAnnoEzS9A7kgCXYaJxjwGbAhJOO21EESf7lqJZvbCVv2WM-CjiLdgWW1HWG9XNC5yEnItQj3x5ellMidmtyn7Z35wayOpKovfHhfqxQ8VrS--Fk4ACPaRjA test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -337,20 +169,84 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BeatsaverSongResourceTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="BeatsaverSongResourceTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="spotify-2-beatsaber" />
-      <setting name="path" value="BeatsaverSongResourceTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Class" />
-      <setting name="path" value="BeatsaverSongResourceTest" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Class" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="BeatsaverSongResourceTest" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="C:\scala\Spotify-To-Beatsaber" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DownloaderTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="spotify-2-beatsaber" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Class" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="DownloaderTest" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="C:\scala\Spotify-To-Beatsaber" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DownloaderTest.Downloader should download url as well" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="spotify-2-beatsaber" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Class" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="DownloaderTest" />
+      <option name="testName" value="Downloader should download url as well" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="C:\scala\Spotify-To-Beatsaber" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DownloaderTest.Downloader should download url" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="spotify-2-beatsaber" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Class" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="DownloaderTest" />
+      <option name="testName" value="Downloader should download url" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="C:\scala\Spotify-To-Beatsaber" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -358,10 +254,16 @@
     <list>
       <item itemvalue="Application.SpotifyToBeatsaber" />
       <item itemvalue="ScalaTest.BeatsaverSongResourceTest" />
+      <item itemvalue="ScalaTest.DownloaderTest.Downloader should download url" />
+      <item itemvalue="ScalaTest.DownloaderTest" />
+      <item itemvalue="ScalaTest.DownloaderTest.Downloader should download url as well" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.SpotifyToBeatsaber" />
+        <item itemvalue="ScalaTest.DownloaderTest" />
+        <item itemvalue="ScalaTest.DownloaderTest.Downloader should download url as well" />
+        <item itemvalue="ScalaTest.DownloaderTest.Downloader should download url" />
         <item itemvalue="ScalaTest.BeatsaverSongResourceTest" />
       </list>
     </recent_temporary>
@@ -379,7 +281,7 @@
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="spotify-2-beatsaber [file:/Users/milan/Documents/spotify-2-beatsaber/]" />
+                <option name="name" value="spotify-to-beatsaber [file:/C:/scala/Spotify-To-Beatsaber/]" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
@@ -393,7 +295,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/build.sbt" value="2689116177" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="1205875865" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="3724303870" />
         <entry key="$PROJECT_DIR$/project/plugins.sbt" value="2573304535" />
         <entry key="$PROJECT_DIR$/../vox/aws-scala-test" value="1445873416000" />
@@ -416,6 +318,9 @@
         <entry key="$PROJECT_DIR$/../workspace/Scala_with_Cats/cats-exercises" value="PREVIEW" />
       </map>
     </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -453,83 +358,32 @@
       <option name="project" value="LOCAL" />
       <updated>1579697364702</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fix download issues">
+      <created>1579724723199</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579724723200</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add levenshtein">
+      <created>1579726775551</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579726775551</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fix error handling">
+      <created>1579728123719</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1579728123719</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="BeatsaverSongResourceTest - 2020.01.22 at 11h 52m 42s.xml">
-      <configuration name="BeatsaverSongResourceTest" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="BeatsaverSongResourceTest - 2020.01.22 at 11h 54m 46s.xml">
-      <configuration name="BeatsaverSongResourceTest" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="BeatsaverSongResourceTest - 2020.01.22 at 12h 00m 07s.xml">
-      <configuration name="BeatsaverSongResourceTest" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="BeatsaverSongResourceTest - 2020.01.22 at 12h 00m 49s.xml">
-      <configuration name="BeatsaverSongResourceTest" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="BeatsaverSongResourceTest - 2020.01.22 at 12h 01m 00s.xml">
-      <configuration name="BeatsaverSongResourceTest" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="BeatsaverSongResourceTest - 2020.01.22 at 12h 02m 45s.xml">
-      <configuration name="BeatsaverSongResourceTest" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="BeatsaverSongResourceTest - 2020.01.22 at 12h 07m 04s.xml">
-      <configuration name="BeatsaverSongResourceTest" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="BeatsaverSongResourceTest - 2020.01.22 at 12h 07m 37s.xml">
-      <configuration name="BeatsaverSongResourceTest" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="BeatsaverSongResourceTest - 2020.01.22 at 12h 11m 44s.xml">
-      <configuration name="BeatsaverSongResourceTest" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="BeatsaverSongResourceTest - 2020.01.22 at 13h 04m 05s.xml">
-      <configuration name="BeatsaverSongResourceTest" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="33895000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="1440" y="-461" width="2255" height="1361" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2724808" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32939324" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.47388536" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.59101653" />
-      <window_info anchor="bottom" id="Docker" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32939324" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32981133" />
-      <window_info anchor="right" id="CDI" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="sbt" order="5" visible="true" weight="0.19972888" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -539,283 +393,110 @@
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
     <MESSAGE value="Initial commit, matches are horrible" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit, matches are horrible" />
+    <MESSAGE value="Fix download issues" />
+    <MESSAGE value="Add levenshtein" />
+    <MESSAGE value="Fix error handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix error handling" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1809" y="908" key="#Plugins" timestamp="1579720555028">
+      <screen x="0" y="0" width="3840" height="2099" />
+    </state>
+    <state x="1809" y="908" key="#Plugins/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579720555028" />
+    <state x="1809" y="908" key="#Project_Structure" timestamp="1579720805822">
+      <screen x="0" y="0" width="3840" height="2099" />
+    </state>
+    <state x="1809" y="908" key="#Project_Structure/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579720805822" />
+    <state x="1518" y="993" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1579721283389">
+      <screen x="0" y="0" width="3840" height="2099" />
+    </state>
+    <state x="1518" y="993" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579721283389" />
+    <state x="1242" y="893" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579731118205">
+      <screen x="0" y="0" width="3840" height="2099" />
+    </state>
+    <state x="1242" y="893" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579731118205" />
+    <state x="2034" y="1164" width="380" height="171" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1579720667729">
+      <screen x="0" y="0" width="3840" height="2099" />
+    </state>
+    <state x="2034" y="1164" width="380" height="171" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579720667729" />
+    <state x="2065" y="1138" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579720673021">
+      <screen x="0" y="0" width="3840" height="2099" />
+    </state>
+    <state x="2065" y="1138" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579720673021" />
+    <state x="1251" y="1172" key="#xdebugger.evaluate" timestamp="1579725101600">
+      <screen x="0" y="0" width="3840" height="2099" />
+    </state>
+    <state x="1251" y="1172" key="#xdebugger.evaluate/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579725101600" />
+    <state x="1400" y="833" width="1878" height="1077" key="CommitChangelistDialog2" timestamp="1579728122857">
+      <screen x="0" y="0" width="3840" height="2099" />
+    </state>
+    <state x="1400" y="833" width="1878" height="1077" key="CommitChangelistDialog2/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579728122857" />
+    <state width="1246" height="489" key="GridCell.Tab.0.bottom" timestamp="1579731183913">
+      <screen x="0" y="0" width="3840" height="2099" />
+    </state>
+    <state width="1246" height="489" key="GridCell.Tab.0.bottom/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579731183913" />
+    <state width="1246" height="489" key="GridCell.Tab.0.center" timestamp="1579731183913">
+      <screen x="0" y="0" width="3840" height="2099" />
+    </state>
+    <state width="1246" height="489" key="GridCell.Tab.0.center/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579731183913" />
+    <state width="1246" height="489" key="GridCell.Tab.0.left" timestamp="1579731183913">
+      <screen x="0" y="0" width="3840" height="2099" />
+    </state>
+    <state width="1246" height="489" key="GridCell.Tab.0.left/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579731183913" />
+    <state width="1246" height="489" key="GridCell.Tab.0.right" timestamp="1579731183913">
+      <screen x="0" y="0" width="3840" height="2099" />
+    </state>
+    <state width="1246" height="489" key="GridCell.Tab.0.right/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579731183913" />
+    <state width="1246" height="489" key="GridCell.Tab.1.bottom" timestamp="1579731183914">
+      <screen x="0" y="0" width="3840" height="2099" />
+    </state>
+    <state width="1246" height="489" key="GridCell.Tab.1.bottom/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579731183914" />
+    <state width="1246" height="489" key="GridCell.Tab.1.center" timestamp="1579731183914">
+      <screen x="0" y="0" width="3840" height="2099" />
+    </state>
+    <state width="1246" height="489" key="GridCell.Tab.1.center/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579731183914" />
+    <state width="1246" height="489" key="GridCell.Tab.1.left" timestamp="1579731183914">
+      <screen x="0" y="0" width="3840" height="2099" />
+    </state>
+    <state width="1246" height="489" key="GridCell.Tab.1.left/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579731183914" />
+    <state width="1246" height="489" key="GridCell.Tab.1.right" timestamp="1579731183914">
+      <screen x="0" y="0" width="3840" height="2099" />
+    </state>
+    <state width="1246" height="489" key="GridCell.Tab.1.right/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579731183914" />
+    <state x="1380" y="971" key="Vcs.Push.Dialog.v2" timestamp="1579728130589">
+      <screen x="0" y="0" width="3840" height="2099" />
+    </state>
+    <state x="1380" y="971" key="Vcs.Push.Dialog.v2/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579728130589" />
+    <state x="1621" y="874" key="com.intellij.ide.util.TipDialog" timestamp="1579720567707">
+      <screen x="0" y="0" width="3840" height="2099" />
+    </state>
+    <state x="1621" y="874" key="com.intellij.ide.util.TipDialog/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579720567707" />
+    <state x="1559" y="957" key="org.jetbrains.plugins.scala.testingSupport.ScalaTestCreator$$anon$1$$anon$2" timestamp="1579721272742">
+      <screen x="0" y="0" width="3840" height="2099" />
+    </state>
+    <state x="1559" y="957" key="org.jetbrains.plugins.scala.testingSupport.ScalaTestCreator$$anon$1$$anon$2/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579721272742" />
+    <state x="1880" y="863" width="672" height="678" key="search.everywhere.popup" timestamp="1579725191615">
+      <screen x="0" y="0" width="3840" height="2099" />
+    </state>
+    <state x="1880" y="863" width="672" height="678" key="search.everywhere.popup/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579725191615" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/test/scala/BeatsaverSongResourceTest.scala</url>
-          <line>9</line>
-          <properties />
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/src/test/scala/DownloaderTest.scala</url>
+          <line>28</line>
+          <properties>
+            <option name="lambda-ordinal" value="0" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/SongResource.scala</url>
+          <line>43</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateCodeFragment">
-      <expression>
-        <expression-string>Parse.decodeEither(result)</expression-string>
-        <language-id>Scala</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>findAll(newOffset, items ++ tracks)</expression-string>
-        <language-id>Scala</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>spotifyApi.getUsersSavedTracks.offset(20).build.execute()</expression-string>
-        <language-id>Scala</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>spotifyApi.getUsersSavedTracks.offset(offset).build.execute()</expression-string>
-        <language-id>Scala</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>spotifyApi.getUsersSavedTracks.offset(offset).limit(10).build.execute()</expression-string>
-        <language-id>Scala</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>toScala(spotifyApi.getUsersSavedTracks.offset(offset).build.executeAsync).value</expression-string>
-        <language-id>Scala</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>offsetTracks.value</expression-string>
-        <language-id>Scala</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>offsetTracks.flatMap(println)</expression-string>
-        <language-id>Scala</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-    </expressions>
-    <expressions id="breakpointCondition">
-      <expression>
-        <expression-string>newOffset == 1500</expression-string>
-        <language-id>Scala</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>offset == 1500</expression-string>
-        <language-id>Scala</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/CompletableFuture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="2039" column="13" selection-start-line="2039" selection-start-column="13" selection-end-line="2039" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/se/michaelthelin/spotify/spotify-web-api-java/4.0.2/spotify-web-api-java-4.0.2-sources.jar!/com/wrapper/spotify/model_objects/specification/Paging.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/time/LocalDateTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="134" column="19" selection-start-line="134" selection-start-column="19" selection-end-line="134" selection-end-column="19" />
-          <folding>
-            <element signature="e#89724#89725#0" expanded="true" />
-            <element signature="e#89786#89787#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019-10-18T14:29:31.114087" />
-    <entry file="file://$PROJECT_DIR$/2019-10-18T15:22:20.502911" />
-    <entry file="file://$PROJECT_DIR$/2019-10-18T14:31:38.993417" />
-    <entry file="file://$PROJECT_DIR$/2019-10-18T14:33:55.816847" />
-    <entry file="file://$PROJECT_DIR$/2019-10-18T14:35:02.750701" />
-    <entry file="file://$PROJECT_DIR$/2019-10-18T14:55:51.852301" />
-    <entry file="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1-sources.jar!/scala/concurrent/Future.scala" />
-    <entry file="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/se/michaelthelin/spotify/spotify-web-api-java/4.0.2/spotify-web-api-java-4.0.2-sources.jar!/com/wrapper/spotify/requests/AbstractRequest.java" />
-    <entry file="file://$PROJECT_DIR$/2019-10-18T15:23:38.401636" />
-    <entry file="file://$PROJECT_DIR$/2019-10-23T14:41:12.774312" />
-    <entry file="file://$PROJECT_DIR$/2019-10-23T15:59:22.314991" />
-    <entry file="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/se/michaelthelin/spotify/spotify-web-api-java/4.0.2/spotify-web-api-java-4.0.2-sources.jar!/com/wrapper/spotify/SpotifyApi.java" />
-    <entry file="file://$PROJECT_DIR$/2019-10-23T16:01:51.442098" />
-    <entry file="file://$PROJECT_DIR$/2019-10-23T15:50:46.022471" />
-    <entry file="file://$PROJECT_DIR$/2019-10-23T16:15:39.428746" />
-    <entry file="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1-sources.jar!/scala/Option.scala" />
-    <entry file="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1-sources.jar!/scala/concurrent/package.scala" />
-    <entry file="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1-sources.jar!/scala/concurrent/ExecutionContext.scala" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/se/michaelthelin/spotify/spotify-web-api-java/4.0.2/spotify-web-api-java-4.0.2-sources.jar!/com/wrapper/spotify/requests/IRequest.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/jdk/internal/misc/Unsafe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32100">
-          <caret line="2293" column="23" selection-start-line="2293" selection-start-column="23" selection-end-line="2293" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019-10-23T17:02:53.972496.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019-10-23T16:18:14.515943.csv" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="2140" column="18" selection-start-line="2140" selection-start-column="18" selection-end-line="2140" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1-sources.jar!/scala/Predef.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="371" column="16" selection-start-line="371" selection-start-column="16" selection-end-line="371" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/argonaut/argonaut_2.13/6.2.3/argonaut_2.13-6.2.3-sources.jar!/argonaut/ACursor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="168" column="6" selection-start-line="168" selection-start-column="6" selection-end-line="168" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/ref/Reference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="230" column="31" selection-start-line="230" selection-start-column="31" selection-end-line="230" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/SpotifyBackup.scala" />
-    <entry file="file://$PROJECT_DIR$/src/test/scala/BeatsaverSongResourceTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/argonaut/argonaut_2.13/6.2.3/argonaut_2.13-6.2.3-sources.jar!/argonaut/Json.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4020">
-          <caret line="269" column="6" selection-start-line="269" selection-start-column="6" selection-end-line="269" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/se/michaelthelin/spotify/spotify-web-api-java/4.0.2/spotify-web-api-java-4.0.2-sources.jar!/com/wrapper/spotify/model_objects/specification/SavedTrack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/io/BufferedInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4695">
-          <caret line="338" column="28" selection-start-line="338" selection-start-column="28" selection-end-line="338" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="833" selection-start-line="833" selection-end-line="833" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/assembly.sbt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.3/librarymanagement-core_2.12-1.3.0.jar!/sbt/librarymanagement/DependencyBuilders.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0-sources.jar!/scala/compat/java8/FutureConverters.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="86" column="6" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Spotify.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-          <folding>
-            <element signature="e#1#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/SpotifyToBeatsaber.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#90#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/SongResource.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="195">
-            <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

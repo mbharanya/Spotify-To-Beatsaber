@@ -1,9 +1,10 @@
-import java.net.URLEncoder
+import java.net.{URL, URLEncoder}
 
 import argonaut.Parse
 import argonaut._
 import Argonaut._
 import com.github.vickumar1981.stringdistance.StringDistance.Levenshtein
+import org.apache.commons.io.{Charsets, IOUtils}
 
 import scala.io.Source
 import scala.util.Try
@@ -25,17 +26,19 @@ object BeatsaverSongResource extends SongResource {
     val artist = inArtist.toLowerCase
     val song = inSong.toLowerCase
 
-    val result = Try(Source.fromURL(
-      searchUrl.replace("$SEARCH", URLEncoder.encode(s"${artist} ${song}", "UTF-8"))
-    )).toEither
+    val result = Try(
+      IOUtils.toString(new URL(
+        searchUrl.replace("$SEARCH", URLEncoder.encode(s"${artist} ${song}", "UTF-8"))
+      ), java.nio.charset.StandardCharsets.UTF_8)
+    ).toEither
 
     result match {
       case Left(err) => {
         System.err.println(err.printStackTrace)
         Left(err.getMessage)
       }
-      case Right(jsonString) => {
-        val searchResult = Parse.parse(jsonString.mkString) match {
+      case Right(jsonBuffer) => {
+        val searchResult = Parse.parse(jsonBuffer) match {
           case Left(error) => Left(error)
           case Right(json) => {
             val docs = (json.hcursor --\ "docs").downArray
