@@ -29,14 +29,13 @@ object BeatsaverSongResource extends SongResource {
       searchUrl.replace("$SEARCH", URLEncoder.encode(s"${artist} ${song}", "UTF-8"))
     )).toEither
 
-
     result match {
       case Left(err) => {
         System.err.println(err.printStackTrace)
         Left(err.getMessage)
       }
-      case Right(bufferedSource) => {
-        val searchResult = Parse.parse(bufferedSource.mkString) match {
+      case Right(jsonString) => {
+        val searchResult = Parse.parse(jsonString.mkString) match {
           case Left(error) => Left(error)
           case Right(json) => {
             val docs = (json.hcursor --\ "docs").downArray
