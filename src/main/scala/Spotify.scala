@@ -1,15 +1,11 @@
 
-import java.io.{BufferedWriter, File, FileWriter}
-import java.time.LocalDateTime
 import java.util.concurrent.Executors
 
 import com.wrapper.spotify.SpotifyApi
 import com.wrapper.spotify.model_objects.specification.{Paging, SavedTrack}
 
 import scala.compat.java8.FutureConverters._
-import scala.concurrent.{Await, ExecutionContext, Future}
-import scala.util.Try
-import scala.concurrent.duration._
+import scala.concurrent.{ExecutionContext, Future}
 
 class Spotify(accessToken: String) {
 
