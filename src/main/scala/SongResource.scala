@@ -1,16 +1,16 @@
+import java.io.PrintWriter
 import java.net.{URL, URLEncoder}
+import java.nio.file.Paths
+import java.time.LocalDateTime
+import java.time.format.DateTimeFormatter
 
-import argonaut.Parse
-import argonaut._
-import Argonaut._
-import com.github.vickumar1981.stringdistance.StringDistance.Levenshtein
-import org.apache.commons.io.{Charsets, IOUtils}
+import argonaut.{ACursor, Parse}
+import org.apache.commons.io.IOUtils
 
-import scala.io.Source
 import scala.util.Try
 
 trait SongResource {
-  def find(artist: String, song: String): Either[String, SearchResult]
+  def find(artist: String, song: String)(implicit stringDistance: ((String, String) => Double)): Either[String, SearchResult]
 }
 
 case class SearchResult(name: String, downloads: Long, downloadUrl: String, confidence: Double) {
@@ -20,8 +20,13 @@ case class SearchResult(name: String, downloads: Long, downloadUrl: String, conf
 object BeatsaverSongResource extends SongResource {
   val searchUrl = "https://beatsaver.com/api/search/text/0?q=$SEARCH"
 
-  override def find(inArtist: String, inSong: String) = {
+  val csvWriter = new PrintWriter(LocalDateTime.now().format(DateTimeFormatter.ISO_DATE_TIME)+ "-matches.csv")
+  csvWriter.write("\"Artist\";\"Song\";\"fullName\";\"songName\";\"songSubName\";\"songAuthorName\";\"confidence\"\n")
+
+  override def find(inArtist: String, inSong: String)(implicit stringDistance: ((String, String) => Double)) = {
     println(s"Searching for ${inArtist} ${inSong}")
+
+    Thread.sleep(100)
 
     val artist = inArtist.toLowerCase
     val song = inSong.toLowerCase
@@ -44,21 +49,39 @@ object BeatsaverSongResource extends SongResource {
             val docs = (json.hcursor --\ "docs").downArray
 
             val maybeSearchResult = for {
-              name <- (docs --\ "name").focus
+              fullName <- (docs --\ "name").focus
+              songName <- (docs --\ "metadata" --\ "songName").focus
+              songSubName <- (docs --\ "metadata" --\ "songSubName").focus
+              songAuthorName <- (docs --\ "metadata" --\ "songAuthorName").focus
               downloads <- (docs --\ "stats" --\ "downloads").focus
               downloadUrl <- (docs --\ "directDownload").focus
             } yield {
-              val foundSongName = name.stringOrEmpty.toLowerCase
-              val scoreArtistSong = Levenshtein.score(s"${artist} ${song}", foundSongName)
-              val scoreSong = Levenshtein.score(s"${song}", foundSongName)
+              val fullNameS = fullName.stringOrEmpty.toLowerCase
+              val songNameS = songName.stringOrEmpty.toLowerCase
+              val songSubNameS = songSubName.stringOrEmpty.toLowerCase
+              val songAuthorNameS = songAuthorName.stringOrEmpty.toLowerCase
 
-              val maxScore = Math.max(scoreArtistSong, scoreSong)
+              val scores = Seq(
+                stringDistance(s"${artist} ${song}", fullNameS),
+                stringDistance(s"${song}", fullNameS),
+
+                stringDistance(s"${artist} ${song}", songNameS),
+                stringDistance(s"${song}", songNameS),
+
+                stringDistance(artist, songSubNameS),
+
+                stringDistance(artist, songAuthorNameS)
+              )
+
+              val confidence = (scores.sum / scores.length.toDouble)
+
+              csvWriter.write(s""""${artist}";"$song";"$fullNameS";"$songNameS";"$songSubNameS";"$songAuthorNameS";"$confidence"\n""")
 
               SearchResult(
-                foundSongName,
+                fullNameS,
                 downloads.numberOrZero.toLong.getOrElse(0l),
                 s"https://beatsaver.com${downloadUrl.stringOrEmpty}",
-                maxScore
+                confidence
               )
             }
 

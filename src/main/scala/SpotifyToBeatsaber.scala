@@ -1,12 +1,17 @@
 import java.io.File
 import java.util.concurrent.Executors
 
+import com.github.vickumar1981.stringdistance.StringDistance.{Levenshtein, NGram}
 import com.wrapper.spotify.model_objects.specification.SavedTrack
 
 import scala.concurrent.ExecutionContext
 import scala.util.Try
 
 object SpotifyToBeatsaber {
+
+  val minConfidence = 0.42
+  implicit val stringDistance: (String, String) => Double = Levenshtein.score
+
   def main(args: Array[String]): Unit = {
     implicit val executionCtx = ExecutionContext.fromExecutorService(Executors.newFixedThreadPool(1))
 
@@ -28,11 +33,11 @@ object SpotifyToBeatsaber {
           (1, 0)
         }
         case Right(result) => {
-          if (result.confidence < 0.4) {
+          if (result.confidence < minConfidence) {
             System.err.println(s"'${result.name}' is not close enough to '${track.getArtists()(0).getName} ${track.getName}' - ${result.confidence}")
             (1, 0)
           }else{
-            println(s"Found song '${track.getArtists()(0).getName} ${track.getName}' <-> '${result.name}', ${result.downloads} downloads, ${result.downloadUrl}")
+            println(s"Found song '${track.getArtists()(0).getName} ${track.getName}' <-> '${result.name}' (confidence ${result.confidence}), ${result.downloads} downloads, ${result.downloadUrl}")
             val fileName = result.name.replaceAll("\\W+", "-")
             Downloader.download(result.downloadUrl, s"${downloadFolder}${File.separator}${fileName}.zip")
             (0,1)
