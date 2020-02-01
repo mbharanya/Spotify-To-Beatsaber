@@ -1,4 +1,4 @@
-import java.io.PrintWriter
+import java.io.{PrintWriter, Writer}
 import java.net.{URL, URLEncoder}
 import java.nio.file.Paths
 import java.time.LocalDateTime
@@ -17,7 +17,7 @@ case class SearchResult(name: String, downloads: Long, downloadUrl: String, conf
 }
 
 
-class BeatsaverSongResource(val csvWriter: PrintWriter) extends SongResource {
+class BeatsaverSongResource(val csvWriter: Writer) extends SongResource {
   val searchUrl = "https://beatsaver.com/api/search/text/0?q=$SEARCH"
   csvWriter.write("\"Artist\";\"Song\";\"fullName\";\"songName\";\"songSubName\";\"songAuthorName\";\"confidence\"\n")
 
