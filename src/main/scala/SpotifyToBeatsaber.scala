@@ -1,4 +1,6 @@
-import java.io.File
+import java.io.{File, PrintWriter}
+import java.time.LocalDateTime
+import java.time.format.DateTimeFormatter
 import java.util.concurrent.Executors
 
 import com.github.vickumar1981.stringdistance.StringDistance.{Levenshtein, NGram}
@@ -19,8 +21,10 @@ object SpotifyToBeatsaber {
     val downloadFolder = Try(args(1)).toOption.getOrElse(".")
 
     val spotify = new Spotify(accessToken)
+    val csvWriter = new PrintWriter(LocalDateTime.now().format(DateTimeFormatter.ISO_DATE_TIME)+ "-matches.csv")
 
-    val songResource: SongResource = BeatsaverSongResource
+    val songResource: SongResource = new BeatsaverSongResource(csvWriter)
+
 
     val statsF = for {
       tracks: List[SavedTrack] <- spotify.findAll()
@@ -54,6 +58,7 @@ object SpotifyToBeatsaber {
       val (failed, succeeded) = stats.fold((0,0))((a: (Int, Int), b: (Int, Int)) => {
         ((a._1 + b._1), a._2 + b._2)
       })
+      csvWriter.close()
 
       println(s"✅ Downloaded ${succeeded} / ${succeeded + failed} (${Math.round((succeeded.toDouble / (failed.toDouble + succeeded.toDouble)) * 100)}%)")
       executionCtx.shutdown()

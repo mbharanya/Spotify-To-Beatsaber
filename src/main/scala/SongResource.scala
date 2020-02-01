@@ -17,10 +17,8 @@ case class SearchResult(name: String, downloads: Long, downloadUrl: String, conf
 }
 
 
-object BeatsaverSongResource extends SongResource {
+class BeatsaverSongResource(val csvWriter: PrintWriter) extends SongResource {
   val searchUrl = "https://beatsaver.com/api/search/text/0?q=$SEARCH"
-
-  val csvWriter = new PrintWriter(LocalDateTime.now().format(DateTimeFormatter.ISO_DATE_TIME)+ "-matches.csv")
   csvWriter.write("\"Artist\";\"Song\";\"fullName\";\"songName\";\"songSubName\";\"songAuthorName\";\"confidence\"\n")
 
   override def find(inArtist: String, inSong: String)(implicit stringDistance: ((String, String) => Double)) = {
@@ -75,7 +73,6 @@ object BeatsaverSongResource extends SongResource {
 
               val confidence = (scores.sum / scores.length.toDouble)
 
-              csvWriter.write(s""""${artist}";"$song";"$fullNameS";"$songNameS";"$songSubNameS";"$songAuthorNameS";"$confidence"\n""")
 
               SearchResult(
                 fullNameS,
