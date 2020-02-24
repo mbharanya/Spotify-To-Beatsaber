@@ -21,7 +21,7 @@ object SpotifyToBeatsaber {
     val downloadFolder = Try(args(1)).toOption.getOrElse(".")
 
     val spotify = new Spotify(accessToken)
-    val csvWriter = new PrintWriter(LocalDateTime.now().format(DateTimeFormatter.ISO_DATE_TIME)+ "-matches.csv")
+    val csvWriter = new PrintWriter(LocalDateTime.now().format(DateTimeFormatter.ISO_DATE_TIME).replaceAll(":", ".") + "-matches.csv")
 
     val songResource: SongResource = new BeatsaverSongResource(csvWriter)
 
