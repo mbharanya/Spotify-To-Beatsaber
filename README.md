@@ -1,4 +1,6 @@
-# Import Shopify saved tracks to beatsaber
+# Import Spotify saved tracks to beatsaber
+
+This tool will fetch your saved tracks from Spotify and download user created tracks from https://beatsaver.com/
 
 Requirements:
 - Java 8+
