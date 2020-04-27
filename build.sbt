@@ -1,6 +1,6 @@
 name := "spotify-2-beatsaber"
 
-version := "0.1"
+version := "0.2"
 
 scalaVersion := "2.13.2"
 
@@ -11,8 +11,6 @@ libraryDependencies += "io.argonaut" %% "argonaut" % "6.2.3"
 libraryDependencies += "com.github.vickumar1981" %% "stringdistance" % "1.2.2"
 libraryDependencies += "commons-io" % "commons-io" % "2.6"
 libraryDependencies += "com.softwaremill.sttp.client" %% "core" % "2.1.0-RC1"
-
-
 
 
 resolvers += Resolver.bintrayIvyRepo("sbt", "sbt-plugin-releases")
