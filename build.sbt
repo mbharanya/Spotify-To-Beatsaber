@@ -2,7 +2,7 @@ name := "spotify-2-beatsaber"
 
 version := "0.2"
 
-scalaVersion := "2.13.2"
+scalaVersion := "2.12.10"
 
 libraryDependencies += "se.michaelthelin.spotify" % "spotify-web-api-java" % "4.0.2"
 libraryDependencies += "org.scala-lang.modules" % "scala-java8-compat_2.12" % "0.9.0"

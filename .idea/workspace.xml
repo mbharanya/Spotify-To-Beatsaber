@@ -2,36 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a72d5f7-f1cd-460c-af4b-6075f8773e11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Spotify-To-Beatsaber-spotify-2-beatsaber.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/project-spotify-2-beatsaber-build.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/StringDistanceTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_9_10_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_9_10_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_9_10_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_9_10_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_9_10_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_9_10_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_code_gson_gson_2_8_5_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_code_gson_gson_2_8_5_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_neovisionaries_nv_i18n_1_23_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_neovisionaries_nv_i18n_1_23_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_codec_commons_codec_1_10_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_codec_commons_codec_1_10_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_io_commons_io_2_6_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_io_commons_io_2_6_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_logging_commons_logging_1_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_logging_commons_logging_1_2_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_5_5_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_5_5_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_cache_4_5_5_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_cache_4_5_5_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_4_9_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_4_9_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_12_0_9_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_12_0_9_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_compatible_3_1_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_compatible_3_1_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__se_michaelthelin_spotify_spotify_web_api_java_4_0_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__se_michaelthelin_spotify_spotify_web_api_java_4_0_2_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Spotify-To-Beatsaber-spotify-2-beatsaber.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/project-spotify-2-beatsaber-build.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/spotify-2-beatsaber-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spotify-2-beatsaber-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/spotify-2-beatsaber.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spotify-2-beatsaber.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-2-beatsaber-assembly-0.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spotify-2-beatsaber-assembly-0.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Downloader.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Downloader.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/SongResource.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/SongResource.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Spotify.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Spotify.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/SpotifyToBeatsaber.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/SpotifyToBeatsaber.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/BeatsaverSongResourceTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/BeatsaverSongResourceTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,12 +43,6 @@
                 <item name="spotify-2-beatsaber" type="f1a62948:ProjectNode" />
                 <item name="spotify-2-beatsaber-build" type="2d1252cf:ModuleNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="spotify-2-beatsaber" type="f1a62948:ProjectNode" />
-                <item name="spotify-2-beatsaber-build" type="2d1252cf:ModuleNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -104,6 +75,7 @@
     <configuration name="SpotifyToBeatsaber" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="SpotifyToBeatsaber" />
       <module name="spotify-2-beatsaber" />
+      <option name="PROGRAM_PARAMETERS" value="BQAynkCcmIYz9W7R-Ccz9y5HVEkHiewgt_1loKXFiKTfhLBiCOXv91sHf8EhoixHY8GpwQwPlBkeCZKBiGaKDaTwDCcQ34I94S2nvcnMZ8tkwEc5o8j0yVQvoOTRLK9pP0yw7MdX27zTv5jeoAuKu_ra9GpyhNLm6w" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -188,9 +160,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpotifyToBeatsaber" />
         <item itemvalue="ScalaTest.ScalaTests in 'scala'" />
         <item itemvalue="ScalaTest.BeatsaverSongResourceTest" />
-        <item itemvalue="Application.SpotifyToBeatsaber" />
       </list>
     </recent_temporary>
   </component>
@@ -212,65 +184,107 @@
       <option name="project" value="LOCAL" />
       <updated>1588011997288</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_9_10_jar.xml&#10;#&#9;.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_9_10_jar.xml&#10;#&#9;.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_9_10_jar.xml&#10;#&#9;.idea/libraries/sbt__com_github_vickumar1981_stringdistance_2_12_1_1_4_jar.xml&#10;#&#9;.idea/libraries/sbt__com_google_code_gson_gson_2_8_5_jar.xml&#10;#&#9;.idea/libraries/sbt__com_neovisionaries_nv_i18n_1_23_jar.xml&#10;#&#9;.idea/libraries/sbt__commons_codec_commons_codec_1_10_jar.xml&#10;#&#9;.idea/libraries/sbt__commons_io_commons_io_2_6_jar.xml&#10;#&#9;.idea/libraries/sbt__commons_logging_commons_logging_1_2_jar.xml&#10;#&#9;.idea/libraries/sbt__io_argonaut_argonaut_2_12_6_2_3_jar.xml&#10;#&#9;.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_5_5_jar.xml&#10;#&#9;.idea/libraries/sbt__org_apache_httpcomponents_httpclient_cache_4_5_5_jar.xml&#10;#&#9;.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_4_9_jar.xml&#10;#&#9;.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_12_0_9_0_jar.xml&#10;#&#9;.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_2_0_jar.xml&#10;#&#9;.idea/libraries/sbt__org_scala_lang_scala_library_2_12_8_jar.xml&#10;#&#9;.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_8_jar.xml&#10;#&#9;.idea/libraries/sbt__org_scalactic_scalactic_2_12_3_1_0_jar.xml&#10;#&#9;.idea/libraries/sbt__org_scalatest_scalatest_2_12_3_1_0_jar.xml&#10;#&#9;.idea/libraries/sbt__org_scalatest_scalatest_compatible_3_1_0_jar.xml&#10;#&#9;.idea/libraries/sbt__se_michaelthelin_spotify_spotify_web_api_java_4_0_2_jar.xml&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/modules/spotify-2-beatsaber-build.iml&#10;#&#9;.idea/modules/spotify-2-beatsaber.iml&#10;#&#9;.idea/workspace.xml&#10;#&#9;README.md&#10;#&#9;spotify-2-beatsaber-assembly-0.2.jar&#10;#&#9;src/main/scala/SongResource.scala">
+      <created>1588013423518</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588013423518</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fix #1 - cloudflare issue" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix #1 - cloudflare issue" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_9_10_jar.xml&#10;#&#9;.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_9_10_jar.xml&#10;#&#9;.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_9_10_jar.xml&#10;#&#9;.idea/libraries/sbt__com_github_vickumar1981_stringdistance_2_12_1_1_4_jar.xml&#10;#&#9;.idea/libraries/sbt__com_google_code_gson_gson_2_8_5_jar.xml&#10;#&#9;.idea/libraries/sbt__com_neovisionaries_nv_i18n_1_23_jar.xml&#10;#&#9;.idea/libraries/sbt__commons_codec_commons_codec_1_10_jar.xml&#10;#&#9;.idea/libraries/sbt__commons_io_commons_io_2_6_jar.xml&#10;#&#9;.idea/libraries/sbt__commons_logging_commons_logging_1_2_jar.xml&#10;#&#9;.idea/libraries/sbt__io_argonaut_argonaut_2_12_6_2_3_jar.xml&#10;#&#9;.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_5_5_jar.xml&#10;#&#9;.idea/libraries/sbt__org_apache_httpcomponents_httpclient_cache_4_5_5_jar.xml&#10;#&#9;.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_4_9_jar.xml&#10;#&#9;.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_12_0_9_0_jar.xml&#10;#&#9;.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_2_0_jar.xml&#10;#&#9;.idea/libraries/sbt__org_scala_lang_scala_library_2_12_8_jar.xml&#10;#&#9;.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_8_jar.xml&#10;#&#9;.idea/libraries/sbt__org_scalactic_scalactic_2_12_3_1_0_jar.xml&#10;#&#9;.idea/libraries/sbt__org_scalatest_scalatest_2_12_3_1_0_jar.xml&#10;#&#9;.idea/libraries/sbt__org_scalatest_scalatest_compatible_3_1_0_jar.xml&#10;#&#9;.idea/libraries/sbt__se_michaelthelin_spotify_spotify_web_api_java_4_0_2_jar.xml&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/modules/spotify-2-beatsaber-build.iml&#10;#&#9;.idea/modules/spotify-2-beatsaber.iml&#10;#&#9;.idea/workspace.xml&#10;#&#9;README.md&#10;#&#9;spotify-2-beatsaber-assembly-0.2.jar&#10;#&#9;src/main/scala/SongResource.scala" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_9_10_jar.xml&#10;#&#9;.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_9_10_jar.xml&#10;#&#9;.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_9_10_jar.xml&#10;#&#9;.idea/libraries/sbt__com_github_vickumar1981_stringdistance_2_12_1_1_4_jar.xml&#10;#&#9;.idea/libraries/sbt__com_google_code_gson_gson_2_8_5_jar.xml&#10;#&#9;.idea/libraries/sbt__com_neovisionaries_nv_i18n_1_23_jar.xml&#10;#&#9;.idea/libraries/sbt__commons_codec_commons_codec_1_10_jar.xml&#10;#&#9;.idea/libraries/sbt__commons_io_commons_io_2_6_jar.xml&#10;#&#9;.idea/libraries/sbt__commons_logging_commons_logging_1_2_jar.xml&#10;#&#9;.idea/libraries/sbt__io_argonaut_argonaut_2_12_6_2_3_jar.xml&#10;#&#9;.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_5_5_jar.xml&#10;#&#9;.idea/libraries/sbt__org_apache_httpcomponents_httpclient_cache_4_5_5_jar.xml&#10;#&#9;.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_4_9_jar.xml&#10;#&#9;.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_12_0_9_0_jar.xml&#10;#&#9;.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_2_0_jar.xml&#10;#&#9;.idea/libraries/sbt__org_scala_lang_scala_library_2_12_8_jar.xml&#10;#&#9;.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_8_jar.xml&#10;#&#9;.idea/libraries/sbt__org_scalactic_scalactic_2_12_3_1_0_jar.xml&#10;#&#9;.idea/libraries/sbt__org_scalatest_scalatest_2_12_3_1_0_jar.xml&#10;#&#9;.idea/libraries/sbt__org_scalatest_scalatest_compatible_3_1_0_jar.xml&#10;#&#9;.idea/libraries/sbt__se_michaelthelin_spotify_spotify_web_api_java_4_0_2_jar.xml&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/modules/spotify-2-beatsaber-build.iml&#10;#&#9;.idea/modules/spotify-2-beatsaber.iml&#10;#&#9;.idea/workspace.xml&#10;#&#9;README.md&#10;#&#9;spotify-2-beatsaber-assembly-0.2.jar&#10;#&#9;src/main/scala/SongResource.scala" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="660" y="1168" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588012760043">
-      <screen x="0" y="0" width="3840" height="2099" />
+    <state x="-1310" y="724" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588018476787">
+      <screen x="-1920" y="688" width="1920" height="1050" />
     </state>
+    <state x="-1310" y="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@-1920.688.1920.1050" timestamp="1588018476787" />
     <state x="660" y="1168" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@0.0.3840.2099" timestamp="1588012760043" />
-    <state x="1042" y="1081" key="CommitChangelistDialog2" timestamp="1588012931281">
+    <state x="1430" y="456" key="#xdebugger.evaluate" timestamp="1588018744785">
       <screen x="0" y="0" width="3840" height="2099" />
     </state>
-    <state x="1042" y="1081" key="CommitChangelistDialog2/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@0.0.3840.2099" timestamp="1588012931281" />
-    <state width="2555" height="466" key="GridCell.Tab.0.bottom" timestamp="1588011940654">
+    <state x="-1205" y="916" key="#xdebugger.evaluate/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@-1920.688.1920.1050" timestamp="1588018517117" />
+    <state x="1430" y="456" key="#xdebugger.evaluate/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@0.0.3840.2099" timestamp="1588018744785" />
+    <state x="248" y="54" width="1801" height="2045" key="CommitChangelistDialog2" timestamp="1588013422382">
       <screen x="0" y="0" width="3840" height="2099" />
     </state>
-    <state width="2555" height="466" key="GridCell.Tab.0.bottom/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@0.0.3840.2099" timestamp="1588011940654" />
-    <state width="2555" height="466" key="GridCell.Tab.0.center" timestamp="1588011940654">
+    <state x="248" y="54" width="1801" height="2045" key="CommitChangelistDialog2/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@0.0.3840.2099" timestamp="1588013422382" />
+    <state width="403" height="466" key="DebuggerActiveHint" timestamp="1588018812080">
       <screen x="0" y="0" width="3840" height="2099" />
     </state>
-    <state width="2555" height="466" key="GridCell.Tab.0.center/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@0.0.3840.2099" timestamp="1588011940654" />
-    <state width="2555" height="466" key="GridCell.Tab.0.left" timestamp="1588011940654">
+    <state width="403" height="466" key="DebuggerActiveHint/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@0.0.3840.2099" timestamp="1588018812080" />
+    <state width="2855" height="351" key="GridCell.Tab.0.bottom" timestamp="1588018869422">
       <screen x="0" y="0" width="3840" height="2099" />
     </state>
-    <state width="2555" height="466" key="GridCell.Tab.0.left/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@0.0.3840.2099" timestamp="1588011940654" />
-    <state width="2555" height="466" key="GridCell.Tab.0.right" timestamp="1588011940654">
+    <state width="1877" height="351" key="GridCell.Tab.0.bottom/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@-1920.688.1920.1050" timestamp="1588018527067" />
+    <state width="2855" height="351" key="GridCell.Tab.0.bottom/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@0.0.3840.2099" timestamp="1588018869422" />
+    <state width="2855" height="351" key="GridCell.Tab.0.center" timestamp="1588018869422">
       <screen x="0" y="0" width="3840" height="2099" />
     </state>
-    <state width="2555" height="466" key="GridCell.Tab.0.right/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@0.0.3840.2099" timestamp="1588011940654" />
-    <state width="2555" height="393" key="GridCell.Tab.1.bottom" timestamp="1588011823983">
+    <state width="1877" height="351" key="GridCell.Tab.0.center/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@-1920.688.1920.1050" timestamp="1588018527066" />
+    <state width="2855" height="351" key="GridCell.Tab.0.center/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@0.0.3840.2099" timestamp="1588018869422" />
+    <state width="2855" height="351" key="GridCell.Tab.0.left" timestamp="1588018869422">
       <screen x="0" y="0" width="3840" height="2099" />
     </state>
-    <state width="2555" height="393" key="GridCell.Tab.1.bottom/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@0.0.3840.2099" timestamp="1588011823983" />
-    <state width="2555" height="393" key="GridCell.Tab.1.center" timestamp="1588011823983">
+    <state width="1877" height="351" key="GridCell.Tab.0.left/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@-1920.688.1920.1050" timestamp="1588018527066" />
+    <state width="2855" height="351" key="GridCell.Tab.0.left/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@0.0.3840.2099" timestamp="1588018869422" />
+    <state width="2855" height="351" key="GridCell.Tab.0.right" timestamp="1588018869422">
       <screen x="0" y="0" width="3840" height="2099" />
     </state>
-    <state width="2555" height="393" key="GridCell.Tab.1.center/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@0.0.3840.2099" timestamp="1588011823983" />
-    <state width="2555" height="393" key="GridCell.Tab.1.left" timestamp="1588011823983">
+    <state width="1877" height="351" key="GridCell.Tab.0.right/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@-1920.688.1920.1050" timestamp="1588018527066" />
+    <state width="2855" height="351" key="GridCell.Tab.0.right/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@0.0.3840.2099" timestamp="1588018869422" />
+    <state width="2855" height="351" key="GridCell.Tab.1.bottom" timestamp="1588018708348">
       <screen x="0" y="0" width="3840" height="2099" />
     </state>
-    <state width="2555" height="393" key="GridCell.Tab.1.left/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@0.0.3840.2099" timestamp="1588011823983" />
-    <state width="2555" height="393" key="GridCell.Tab.1.right" timestamp="1588011823983">
+    <state width="1877" height="351" key="GridCell.Tab.1.bottom/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@-1920.688.1920.1050" timestamp="1588018499907" />
+    <state width="2855" height="351" key="GridCell.Tab.1.bottom/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@0.0.3840.2099" timestamp="1588018708348" />
+    <state width="2855" height="351" key="GridCell.Tab.1.center" timestamp="1588018708348">
       <screen x="0" y="0" width="3840" height="2099" />
     </state>
-    <state width="2555" height="393" key="GridCell.Tab.1.right/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@0.0.3840.2099" timestamp="1588011823983" />
-    <state x="686" y="1087" key="SettingsEditor" timestamp="1588010733388">
+    <state width="1877" height="351" key="GridCell.Tab.1.center/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@-1920.688.1920.1050" timestamp="1588018499906" />
+    <state width="2855" height="351" key="GridCell.Tab.1.center/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@0.0.3840.2099" timestamp="1588018708348" />
+    <state width="2855" height="351" key="GridCell.Tab.1.left" timestamp="1588018708348">
       <screen x="0" y="0" width="3840" height="2099" />
     </state>
-    <state x="686" y="1087" key="SettingsEditor/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@0.0.3840.2099" timestamp="1588010733388" />
-    <state x="1006" y="1246" key="Vcs.Push.Dialog.v2" timestamp="1588012002775">
+    <state width="1877" height="351" key="GridCell.Tab.1.left/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@-1920.688.1920.1050" timestamp="1588018499906" />
+    <state width="2855" height="351" key="GridCell.Tab.1.left/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@0.0.3840.2099" timestamp="1588018708348" />
+    <state width="2855" height="351" key="GridCell.Tab.1.right" timestamp="1588018708348">
       <screen x="0" y="0" width="3840" height="2099" />
     </state>
-    <state x="1006" y="1246" key="Vcs.Push.Dialog.v2/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@0.0.3840.2099" timestamp="1588012002775" />
+    <state width="1877" height="351" key="GridCell.Tab.1.right/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@-1920.688.1920.1050" timestamp="1588018499907" />
+    <state width="2855" height="351" key="GridCell.Tab.1.right/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@0.0.3840.2099" timestamp="1588018708348" />
+    <state x="686" y="1087" key="SettingsEditor" timestamp="1588018985701">
+      <screen x="0" y="0" width="3840" height="2099" />
+    </state>
+    <state x="686" y="1087" key="SettingsEditor/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@0.0.3840.2099" timestamp="1588018985701" />
+    <state x="1006" y="1246" key="Vcs.Push.Dialog.v2" timestamp="1588013428675">
+      <screen x="0" y="0" width="3840" height="2099" />
+    </state>
+    <state x="1006" y="1246" key="Vcs.Push.Dialog.v2/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@0.0.3840.2099" timestamp="1588013428675" />
     <state x="1077" y="1191" width="672" height="678" key="search.everywhere.popup" timestamp="1588012896184">
       <screen x="0" y="0" width="3840" height="2099" />
     </state>
     <state x="1077" y="1191" width="672" height="678" key="search.everywhere.popup/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@0.0.3840.2099" timestamp="1588012896184" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/Spotify.scala</url>
+          <line>17</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/Spotify.scala</url>
+          <line>18</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
