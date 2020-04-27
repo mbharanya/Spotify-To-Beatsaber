@@ -1,9 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e9af16e-6128-4d58-8652-208573fa7bf6" name="Default Changelist" comment="">
+    <list default="true" id="0a72d5f7-f1cd-460c-af4b-6075f8773e11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_vickumar1981_stringdistance_2_13_1_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_softwaremill_sttp_client_core_2_13_2_1_0_RC1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_softwaremill_sttp_model_core_2_13_1_1_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_argonaut_argonaut_2_13_6_2_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_13_1_2_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_13_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_13_3_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_13_3_1_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_9_10_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_9_10_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_9_10_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_9_10_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_9_10_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_9_10_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_vickumar1981_stringdistance_2_12_1_1_4_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_code_gson_gson_2_8_5_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_code_gson_gson_2_8_5_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_neovisionaries_nv_i18n_1_23_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_neovisionaries_nv_i18n_1_23_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_codec_commons_codec_1_10_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_codec_commons_codec_1_10_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_io_commons_io_2_6_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_io_commons_io_2_6_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_logging_commons_logging_1_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_logging_commons_logging_1_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_argonaut_argonaut_2_12_6_2_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_5_5_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_5_5_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_cache_4_5_5_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_cache_4_5_5_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_4_9_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_4_9_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_12_0_9_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_12_0_9_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_2_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_12_3_1_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_12_3_1_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_compatible_3_1_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_compatible_3_1_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__se_michaelthelin_spotify_spotify_web_api_java_4_0_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__se_michaelthelin_spotify_spotify_web_api_java_4_0_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/spotify-2-beatsaber-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spotify-2-beatsaber-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/spotify-2-beatsaber.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spotify-2-beatsaber.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/thriftCompiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Downloader.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Downloader.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/SongResource.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/SongResource.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,23 +53,6 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -45,6 +69,16 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="spotify-2-beatsaber" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spotify-2-beatsaber" type="f1a62948:ProjectNode" />
+                <item name="spotify-2-beatsaber" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spotify-2-beatsaber" type="f1a62948:ProjectNode" />
+                <item name="spotify-2-beatsaber-build" type="2d1252cf:ModuleNode" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -52,91 +86,31 @@
       </state>
     </system>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="ScalaTest Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>value</find>
-      <find>: String</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1WlNt1gGAMzsQZoOTesGEenG8Hu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1b8P71CQmK4B3bnQ8QyTKs74lSr" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="GO_FMT" value="true" />
-    <property name="GoToClass.includeLibraries" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
-    <property name="MemberChooser.sorted" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="ScalaTest" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.ScalaTest" value="org.scalatest.FunSuite" />
-    <property name="go.gopath.indexing.explicitly.defined" value="true" />
-    <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="org.scalatest.FunSuite" />
-    </key>
-  </component>
-  <component name="RunManager" selected="ScalaTest.DownloaderTest">
-    <configuration default="true" type="Applet">
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.BeatsaverSongResourceTest">
     <configuration name="SpotifyToBeatsaber" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="SpotifyToBeatsaber" />
       <module name="spotify-2-beatsaber" />
-      <option name="PROGRAM_PARAMETERS" value="BQCIg5aVlknSDZTpz9LhEPK2x8Z1zuzYX7gchKB0fVhAnnoEzS9A7kgCXYaJxjwGbAhJOO21EESf7lqJZvbCVv2WM-CjiLdgWW1HWG9XNC5yEnItQj3x5ellMidmtyn7Z35wayOpKovfHhfqxQ8VrS--Fk4ACPaRjA test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -159,10 +133,10 @@
       <option name="workingDirectory" value="C:\scala\Spotify-To-Beatsaber" />
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DownloaderTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="spotify-2-beatsaber" />
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest" show_console_on_std_err="false" show_console_on_std_out="false">
       <option name="allowRunningInParallel" value="false" />
       <option name="testKind" value="Class" />
       <option name="envs">
@@ -173,314 +147,75 @@
       <option name="searchTest" value="Across module dependencies" />
       <option name="showProgressMessages" value="true" />
       <option name="testArgs" value="" />
-      <option name="testClassPath" value="DownloaderTest" />
+      <option name="testClassPath" value="" />
       <option name="useSbt" value="false" />
       <option name="useUiWithSbt" value="false" />
-      <option name="workingDirectory" value="C:\scala\Spotify-To-Beatsaber" />
+      <option name="workingDirectory" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DownloaderTest.Downloader should download url as well" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="spotify-2-beatsaber" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="testKind" value="Class" />
-      <option name="envs">
-        <map />
-      </option>
-      <option name="javaOptions" value="" />
-      <option name="jrePath" />
-      <option name="searchTest" value="Across module dependencies" />
-      <option name="showProgressMessages" value="true" />
-      <option name="testArgs" value="" />
-      <option name="testClassPath" value="DownloaderTest" />
-      <option name="testName" value="Downloader should download url as well" />
-      <option name="useSbt" value="false" />
-      <option name="useUiWithSbt" value="false" />
-      <option name="workingDirectory" value="C:\scala\Spotify-To-Beatsaber" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DownloaderTest.Downloader should download url" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="spotify-2-beatsaber" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="testKind" value="Class" />
-      <option name="envs">
-        <map />
-      </option>
-      <option name="javaOptions" value="" />
-      <option name="jrePath" />
-      <option name="searchTest" value="Across module dependencies" />
-      <option name="showProgressMessages" value="true" />
-      <option name="testArgs" value="" />
-      <option name="testClassPath" value="DownloaderTest" />
-      <option name="testName" value="Downloader should download url" />
-      <option name="useSbt" value="false" />
-      <option name="useUiWithSbt" value="false" />
-      <option name="workingDirectory" value="C:\scala\Spotify-To-Beatsaber" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.SpotifyToBeatsaber" />
-      <item itemvalue="ScalaTest.BeatsaverSongResourceTest" />
-      <item itemvalue="ScalaTest.DownloaderTest.Downloader should download url" />
-      <item itemvalue="ScalaTest.DownloaderTest" />
-      <item itemvalue="ScalaTest.DownloaderTest.Downloader should download url as well" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="ScalaTest.DownloaderTest" />
-        <item itemvalue="Application.SpotifyToBeatsaber" />
-        <item itemvalue="ScalaTest.DownloaderTest.Downloader should download url as well" />
-        <item itemvalue="ScalaTest.DownloaderTest.Downloader should download url" />
         <item itemvalue="ScalaTest.BeatsaverSongResourceTest" />
+        <item itemvalue="Application.SpotifyToBeatsaber" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SbtLocalSettings">
-    <option name="availableProjects">
-      <map>
-        <entry>
-          <key>
-            <ExternalProjectPojo>
-              <option name="name" value="spotify-2-beatsaber" />
-              <option name="path" value="$PROJECT_DIR$" />
-            </ExternalProjectPojo>
-          </key>
-          <value>
-            <list>
-              <ExternalProjectPojo>
-                <option name="name" value="spotify-to-beatsaber [file:/C:/scala/Spotify-To-Beatsaber/]" />
-                <option name="path" value="$PROJECT_DIR$" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value="spotify-2-beatsaber-build" />
-                <option name="path" value="$PROJECT_DIR$/project" />
-              </ExternalProjectPojo>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="modificationStamps">
-      <map>
-        <entry key="$PROJECT_DIR$/build.sbt" value="1205875865" />
-        <entry key="$PROJECT_DIR$/project/build.properties" value="3724303870" />
-        <entry key="$PROJECT_DIR$/project/plugins.sbt" value="2573304535" />
-        <entry key="$PROJECT_DIR$/../vox/aws-scala-test" value="1445873416000" />
-        <entry key="$PROJECT_DIR$/../vox/buy" value="1483443794000" />
-        <entry key="$PROJECT_DIR$/../vox/common" value="7141633378000" />
-        <entry key="$PROJECT_DIR$/../vox/ip2location" value="1478691471000" />
-        <entry key="$PROJECT_DIR$/../vox/worker" value="1427382777000" />
-        <entry key="$PROJECT_DIR$/../workspace/aws-lambda-scalajs" value="1427211277000" />
-      </map>
-    </option>
-    <option name="projectSyncType">
-      <map>
-        <entry key="$PROJECT_DIR$/../common" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../finance" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../ip2location" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../scala/cats" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../vox/buy" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../vox/common" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../vox/userlitics" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../workspace/Scala_with_Cats/cats-exercises" value="PREVIEW" />
-      </map>
-    </option>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5e9af16e-6128-4d58-8652-208573fa7bf6" name="Default Changelist" comment="" />
-      <created>1571389731810</created>
+      <changelist id="0a72d5f7-f1cd-460c-af4b-6075f8773e11" name="Default Changelist" comment="" />
+      <created>1588010576440</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1571389731810</updated>
-      <workItem from="1571389735494" duration="12846000" />
-      <workItem from="1571834374833" duration="7219000" />
-      <workItem from="1579686954000" duration="9248000" />
-      <workItem from="1579703529493" duration="4582000" />
+      <updated>1588010576440</updated>
     </task>
-    <task id="LOCAL-00001" summary="Initial commit, matches are horrible">
-      <created>1579697074457</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1579697074457</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Initial commit, matches are horrible">
-      <created>1579697340355</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1579697340355</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Initial commit, matches are horrible">
-      <created>1579697364702</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1579697364702</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Fix download issues">
-      <created>1579724723199</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1579724723200</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Add levenshtein">
-      <created>1579726775551</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1579726775551</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Fix error handling">
-      <created>1579728123719</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1579728123719</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Try to fix jar issues">
-      <created>1579731384767</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1579731384767</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33895000" />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/.." />
-    </ignored-roots>
-    <MESSAGE value="Initial commit, matches are horrible" />
-    <MESSAGE value="Fix download issues" />
-    <MESSAGE value="Add levenshtein" />
-    <MESSAGE value="Fix error handling" />
-    <MESSAGE value="Try to fix jar issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="Try to fix jar issues" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="1809" y="908" key="#Plugins" timestamp="1579720555028">
+    <state x="660" y="1168" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588010654550">
       <screen x="0" y="0" width="3840" height="2099" />
     </state>
-    <state x="1809" y="908" key="#Plugins/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579720555028" />
-    <state x="1809" y="908" key="#Project_Structure" timestamp="1579720805822">
+    <state x="660" y="1168" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@0.0.3840.2099" timestamp="1588010654550" />
+    <state width="2555" height="393" key="GridCell.Tab.0.bottom" timestamp="1588011823983">
       <screen x="0" y="0" width="3840" height="2099" />
     </state>
-    <state x="1809" y="908" key="#Project_Structure/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579720805822" />
-    <state x="1518" y="993" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1579721283389">
+    <state width="2555" height="393" key="GridCell.Tab.0.bottom/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@0.0.3840.2099" timestamp="1588011823983" />
+    <state width="2555" height="393" key="GridCell.Tab.0.center" timestamp="1588011823983">
       <screen x="0" y="0" width="3840" height="2099" />
     </state>
-    <state x="1518" y="993" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579721283389" />
-    <state x="1242" y="893" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579731582566">
+    <state width="2555" height="393" key="GridCell.Tab.0.center/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@0.0.3840.2099" timestamp="1588011823983" />
+    <state width="2555" height="393" key="GridCell.Tab.0.left" timestamp="1588011823983">
       <screen x="0" y="0" width="3840" height="2099" />
     </state>
-    <state x="1242" y="893" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579731582566" />
-    <state x="2034" y="1164" width="380" height="171" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1579720667729">
+    <state width="2555" height="393" key="GridCell.Tab.0.left/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@0.0.3840.2099" timestamp="1588011823983" />
+    <state width="2555" height="393" key="GridCell.Tab.0.right" timestamp="1588011823983">
       <screen x="0" y="0" width="3840" height="2099" />
     </state>
-    <state x="2034" y="1164" width="380" height="171" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579720667729" />
-    <state x="2065" y="1138" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579720673021">
+    <state width="2555" height="393" key="GridCell.Tab.0.right/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@0.0.3840.2099" timestamp="1588011823983" />
+    <state width="2555" height="393" key="GridCell.Tab.1.bottom" timestamp="1588011823983">
       <screen x="0" y="0" width="3840" height="2099" />
     </state>
-    <state x="2065" y="1138" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579720673021" />
-    <state x="1251" y="1172" key="#xdebugger.evaluate" timestamp="1579725101600">
+    <state width="2555" height="393" key="GridCell.Tab.1.bottom/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@0.0.3840.2099" timestamp="1588011823983" />
+    <state width="2555" height="393" key="GridCell.Tab.1.center" timestamp="1588011823983">
       <screen x="0" y="0" width="3840" height="2099" />
     </state>
-    <state x="1251" y="1172" key="#xdebugger.evaluate/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579725101600" />
-    <state x="1400" y="833" width="1878" height="1077" key="CommitChangelistDialog2" timestamp="1579731383174">
+    <state width="2555" height="393" key="GridCell.Tab.1.center/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@0.0.3840.2099" timestamp="1588011823983" />
+    <state width="2555" height="393" key="GridCell.Tab.1.left" timestamp="1588011823983">
       <screen x="0" y="0" width="3840" height="2099" />
     </state>
-    <state x="1400" y="833" width="1878" height="1077" key="CommitChangelistDialog2/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579731383174" />
-    <state width="1246" height="522" key="GridCell.Tab.0.bottom" timestamp="1579731615145">
+    <state width="2555" height="393" key="GridCell.Tab.1.left/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@0.0.3840.2099" timestamp="1588011823983" />
+    <state width="2555" height="393" key="GridCell.Tab.1.right" timestamp="1588011823983">
       <screen x="0" y="0" width="3840" height="2099" />
     </state>
-    <state width="1246" height="522" key="GridCell.Tab.0.bottom/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579731615145" />
-    <state width="1246" height="522" key="GridCell.Tab.0.center" timestamp="1579731615145">
+    <state width="2555" height="393" key="GridCell.Tab.1.right/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@0.0.3840.2099" timestamp="1588011823983" />
+    <state x="686" y="1087" key="SettingsEditor" timestamp="1588010733388">
       <screen x="0" y="0" width="3840" height="2099" />
     </state>
-    <state width="1246" height="522" key="GridCell.Tab.0.center/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579731615145" />
-    <state width="1246" height="522" key="GridCell.Tab.0.left" timestamp="1579731615145">
-      <screen x="0" y="0" width="3840" height="2099" />
-    </state>
-    <state width="1246" height="522" key="GridCell.Tab.0.left/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579731615145" />
-    <state width="1246" height="522" key="GridCell.Tab.0.right" timestamp="1579731615145">
-      <screen x="0" y="0" width="3840" height="2099" />
-    </state>
-    <state width="1246" height="522" key="GridCell.Tab.0.right/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579731615145" />
-    <state width="1246" height="489" key="GridCell.Tab.1.bottom" timestamp="1579731183914">
-      <screen x="0" y="0" width="3840" height="2099" />
-    </state>
-    <state width="1246" height="489" key="GridCell.Tab.1.bottom/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579731183914" />
-    <state width="1246" height="489" key="GridCell.Tab.1.center" timestamp="1579731183914">
-      <screen x="0" y="0" width="3840" height="2099" />
-    </state>
-    <state width="1246" height="489" key="GridCell.Tab.1.center/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579731183914" />
-    <state width="1246" height="489" key="GridCell.Tab.1.left" timestamp="1579731183914">
-      <screen x="0" y="0" width="3840" height="2099" />
-    </state>
-    <state width="1246" height="489" key="GridCell.Tab.1.left/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579731183914" />
-    <state width="1246" height="489" key="GridCell.Tab.1.right" timestamp="1579731183914">
-      <screen x="0" y="0" width="3840" height="2099" />
-    </state>
-    <state width="1246" height="489" key="GridCell.Tab.1.right/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579731183914" />
-    <state x="1380" y="971" key="Vcs.Push.Dialog.v2" timestamp="1579731393215">
-      <screen x="0" y="0" width="3840" height="2099" />
-    </state>
-    <state x="1380" y="971" key="Vcs.Push.Dialog.v2/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579731393215" />
-    <state x="1621" y="874" key="com.intellij.ide.util.TipDialog" timestamp="1579720567707">
-      <screen x="0" y="0" width="3840" height="2099" />
-    </state>
-    <state x="1621" y="874" key="com.intellij.ide.util.TipDialog/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579720567707" />
-    <state x="2136" y="1106" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1579731360481">
-      <screen x="0" y="0" width="3840" height="2099" />
-    </state>
-    <state x="2136" y="1106" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579731360481" />
-    <state x="1559" y="957" key="org.jetbrains.plugins.scala.testingSupport.ScalaTestCreator$$anon$1$$anon$2" timestamp="1579721272742">
-      <screen x="0" y="0" width="3840" height="2099" />
-    </state>
-    <state x="1559" y="957" key="org.jetbrains.plugins.scala.testingSupport.ScalaTestCreator$$anon$1$$anon$2/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579721272742" />
-    <state x="1880" y="863" width="672" height="678" key="search.everywhere.popup" timestamp="1579731584694">
-      <screen x="0" y="0" width="3840" height="2099" />
-    </state>
-    <state x="1880" y="863" width="672" height="678" key="search.everywhere.popup/-1920.688.1920.1019/3840.229.1080.1890/0.0.3840.2099@0.0.3840.2099" timestamp="1579731584694" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/test/scala/DownloaderTest.scala</url>
-          <line>28</line>
-          <properties>
-            <option name="lambda-ordinal" value="0" />
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/SongResource.scala</url>
-          <line>43</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="686" y="1087" key="SettingsEditor/0.0.3840.2099/-1920.688.1920.1050/3840.229.1080.1890@0.0.3840.2099" timestamp="1588010733388" />
   </component>
 </project>
