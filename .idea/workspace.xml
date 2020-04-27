@@ -1,13 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a72d5f7-f1cd-460c-af4b-6075f8773e11" name="Default Changelist" comment="Fix #1 - cloudflare issue">
+    <list default="true" id="0a72d5f7-f1cd-460c-af4b-6075f8773e11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Spotify-To-Beatsaber-spotify-2-beatsaber.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/project-spotify-2-beatsaber-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/StringDistanceTest.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spotify-2-beatsaber-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spotify-2-beatsaber-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_9_10_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_9_10_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_9_10_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_9_10_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_9_10_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_9_10_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_code_gson_gson_2_8_5_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_code_gson_gson_2_8_5_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_neovisionaries_nv_i18n_1_23_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_neovisionaries_nv_i18n_1_23_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_codec_commons_codec_1_10_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_codec_commons_codec_1_10_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_io_commons_io_2_6_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_io_commons_io_2_6_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_logging_commons_logging_1_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_logging_commons_logging_1_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_5_5_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_5_5_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_cache_4_5_5_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_cache_4_5_5_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_4_9_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_4_9_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_12_0_9_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_12_0_9_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_compatible_3_1_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_compatible_3_1_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__se_michaelthelin_spotify_spotify_web_api_java_4_0_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__se_michaelthelin_spotify_spotify_web_api_java_4_0_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-2-beatsaber-assembly-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spotify-2-beatsaber-assembly-0.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spotify-2-beatsaber-assembly-0.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Downloader.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Downloader.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/SongResource.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/SongResource.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Spotify.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Spotify.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/SpotifyToBeatsaber.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/SpotifyToBeatsaber.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/BeatsaverSongResourceTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/BeatsaverSongResourceTest.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,12 +60,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="spotify-2-beatsaber" type="f1a62948:ProjectNode" />
                 <item name="spotify-2-beatsaber" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="spotify-2-beatsaber" type="f1a62948:ProjectNode" />
-                <item name="spotify-2-beatsaber" type="2d1252cf:ModuleNode" />
-                <item name="sbt tasks" type="d9357504:SbtViewContributor$SbtTasksGroupNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -125,12 +143,6 @@
       <module name="spotify-2-beatsaber" />
       <option name="allowRunningInParallel" value="false" />
       <option name="testKind" value="Class" />
-      <option name="classBuf">
-        <list>
-          <option value="DownloaderTest" />
-          <option value="BeatsaverSongResourceTest" />
-        </list>
-      </option>
       <option name="envs">
         <map />
       </option>
@@ -139,7 +151,7 @@
       <option name="searchTest" value="Across module dependencies" />
       <option name="showProgressMessages" value="true" />
       <option name="testArgs" value="" />
-      <option name="testPackagePath" value="" />
+      <option name="testClassPath" value="" />
       <option name="useSbt" value="false" />
       <option name="useUiWithSbt" value="false" />
       <option name="workingDirectory" value="C:\scala\Spotify-To-Beatsaber" />

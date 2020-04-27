@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spotify-To-Beatsaber-spotify-2-beatsaber.iml" filepath="$PROJECT_DIR$/.idea/modules/Spotify-To-Beatsaber-spotify-2-beatsaber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/project-spotify-2-beatsaber-build.iml" filepath="$PROJECT_DIR$/.idea/modules/project-spotify-2-beatsaber-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spotify-2-beatsaber.iml" filepath="$PROJECT_DIR$/.idea/modules/spotify-2-beatsaber.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spotify-2-beatsaber-build.iml" filepath="$PROJECT_DIR$/.idea/modules/spotify-2-beatsaber-build.iml" />
     </modules>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="sbt 1" modules="spotify-2-beatsaber,spotify-to-beatsaber_289" />
+    <profile name="sbt 1" modules="Spotify-To-Beatsaber-spotify-2-beatsaber,spotify-2-beatsaber,spotify-to-beatsaber_289" />
   </component>
 </project>

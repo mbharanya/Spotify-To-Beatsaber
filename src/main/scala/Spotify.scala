@@ -28,12 +28,16 @@ class Spotify(accessToken: String) {
       case (newOffset, total, items) => {
         print(".")
         if (offset + 20 > total) {
+          println()
           Future(items ++ tracks)
         } else {
           findAll(newOffset, items ++ tracks)
         }
       }
-      case _ => Future(tracks)
+      case _ => {
+        println()
+        Future(tracks)
+      }
     }.recoverWith {
       case ioe => {
         ioe.printStackTrace
