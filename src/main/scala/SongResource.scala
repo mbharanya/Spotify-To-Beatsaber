@@ -1,13 +1,6 @@
-import java.net.{URL, URLEncoder}
-
 import argonaut.Parse
-import argonaut._
-import Argonaut._
 import com.github.vickumar1981.stringdistance.StringDistance.Levenshtein
-import org.apache.commons.io.{Charsets, IOUtils}
-
-import scala.io.Source
-import scala.util.Try
+import sttp.client._
 
 trait SongResource {
   def find(artist: String, song: String): Either[String, SearchResult]
@@ -16,26 +9,24 @@ trait SongResource {
 case class SearchResult(name: String, downloads: Long, downloadUrl: String, confidence: Double) {
 }
 
-
 object BeatsaverSongResource extends SongResource {
-  val searchUrl = "https://beatsaver.com/api/search/text/0?q=$SEARCH"
-
   override def find(inArtist: String, inSong: String) = {
     println(s"Searching for ${inArtist} ${inSong}")
 
     val artist = inArtist.toLowerCase
     val song = inSong.toLowerCase
 
-    val result = Try(
-      IOUtils.toString(new URL(
-        searchUrl.replace("$SEARCH", URLEncoder.encode(s"${artist} ${song}", "UTF-8"))
-      ), java.nio.charset.StandardCharsets.UTF_8)
-    ).toEither
 
-    result match {
+    val request = basicRequest.get(uri"https://beatsaver.com/api/search/text/0?q=$artist $song")
+      .header("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36")
+
+    implicit val backend = HttpURLConnectionBackend()
+    val response = request.send()
+
+    response.body match {
       case Left(err) => {
-        System.err.println(err.printStackTrace)
-        Left(err.getMessage)
+        System.err.println(err)
+        Left(err)
       }
       case Right(jsonBuffer) => {
         val searchResult = Parse.parse(jsonBuffer) match {
