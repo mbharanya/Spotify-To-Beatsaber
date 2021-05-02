@@ -16,7 +16,7 @@ class BeatsaverSongResourceTest extends AnyFlatSpec with Matchers{
     either.right.get.name shouldNot have length(0)
   }
   it should "not get results if there are none" in {
-    val either = new BeatsaverSongResource(writer).find("Skindred", "Ratrace")
+    val either = new BeatsaverSongResource(writer).find("afkjlahsfashfasfasfas", "afkjlahsfashfasfasfas")
     either match {
       case Right(_) => fail()
       case Left(_) => succeed

@@ -4,7 +4,7 @@ version := "0.3"
 
 scalaVersion := "2.13.5"
 
-libraryDependencies += "se.michaelthelin.spotify" % "spotify-web-api-java" % "4.0.2"
+libraryDependencies += "se.michaelthelin.spotify" % "spotify-web-api-java" % "6.5.4"
 // https://mvnrepository.com/artifact/org.scala-lang.modules/scala-java8-compat
 libraryDependencies += "org.scala-lang.modules" %% "scala-java8-compat" % "0.9.1"
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.1.0" % "test"

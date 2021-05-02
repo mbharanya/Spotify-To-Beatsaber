@@ -27,7 +27,7 @@ object SpotifyToBeatsaber {
 
 
     val statsF = for {
-      tracks: List[SavedTrack] <- spotify.findAll()
+      tracks: List[SavedTrack] <- spotify.findAllSavedTracks()
     } yield tracks.map { savedTrack =>
       val track = savedTrack.getTrack
       val searchResult = songResource.find(track.getArtists()(0).getName, track.getName)

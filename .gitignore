@@ -1,5 +1,5 @@
 target
-2019*
-2020*
+*.csv
 null
 test
+src/test/res/test-api-key

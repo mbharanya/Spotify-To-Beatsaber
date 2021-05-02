@@ -2,8 +2,6 @@ import java.io.Writer
 import argonaut.Parse
 import sttp.client3._
 
-import java.net.URLEncoder
-
 trait SongResource {
   def find(artist: String, song: String)(implicit stringDistance: ((String, String) => Double)): Either[String, SearchResult]
 }
@@ -23,7 +21,7 @@ class BeatsaverSongResource(val csvWriter: Writer) extends SongResource {
     val artist = inArtist.toLowerCase
     val song = inSong.toLowerCase
 
-    val request = basicRequest.get(uri"https://beatsaver.com/api/search/text/0?q=bad+lip+reading+seagulls&?automapper=1")
+    val request = basicRequest.get(uri"https://beatsaver.com/api/search/text/0?q=$artist $song")
       .header("authority","beatsaver.com")
       .header("pragma","no-cache")
       .header("cache-control","no-cache")
