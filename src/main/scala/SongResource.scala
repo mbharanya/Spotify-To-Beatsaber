@@ -3,7 +3,7 @@ import argonaut.Parse
 import sttp.client3._
 
 trait SongResource {
-  def find(artist: String, song: String)(implicit stringDistance: ((String, String) => Double)): Either[String, SearchResult]
+  def find(song: Song)(implicit stringDistance: ((String, String) => Double)): Either[String, SearchResult]
 }
 
 case class SearchResult(name: String, downloads: Long, downloadUrl: String, confidence: Double) {
@@ -13,13 +13,13 @@ case class SearchResult(name: String, downloads: Long, downloadUrl: String, conf
 class BeatsaverSongResource(val csvWriter: Writer) extends SongResource {
   csvWriter.write("\"Artist\";\"Song\";\"fullName\";\"songName\";\"songSubName\";\"songAuthorName\";\"confidence\"\n")
 
-  override def find(inArtist: String, inSong: String)(implicit stringDistance: ((String, String) => Double)) = {
-    println(s"Searching for ${inArtist} ${inSong}")
+  override def find(songToFind: Song)(implicit stringDistance: ((String, String) => Double)) = {
+    println(s"Searching for ${songToFind.artist} ${songToFind.name}")
 
     Thread.sleep(100)
 
-    val artist = inArtist.toLowerCase
-    val song = inSong.toLowerCase
+    val artist = songToFind.artist.toLowerCase
+    val song = songToFind.name.toLowerCase
 
     val request = basicRequest.get(uri"https://beatsaver.com/api/search/text/0?q=$artist $song")
       .header("authority","beatsaver.com")

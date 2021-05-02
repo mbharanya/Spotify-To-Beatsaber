@@ -11,12 +11,12 @@ class BeatsaverSongResourceTest extends AnyFlatSpec with Matchers{
 
 
   "Beatsaver.com" should "return values from API" in {
-    val either = new BeatsaverSongResource(writer).find("bad lip reading", "seagulls")
+    val either = new BeatsaverSongResource(writer).find(Song("bad lip reading", "seagulls"))
     either.right.get.downloadUrl shouldNot have length(0)
     either.right.get.name shouldNot have length(0)
   }
   it should "not get results if there are none" in {
-    val either = new BeatsaverSongResource(writer).find("afkjlahsfashfasfasfas", "afkjlahsfashfasfasfas")
+    val either = new BeatsaverSongResource(writer).find(Song("afkjlahsfashfasfasfas", "afkjlahsfashfasfasfas"))
     either match {
       case Right(_) => fail()
       case Left(_) => succeed

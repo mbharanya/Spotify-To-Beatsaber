@@ -10,7 +10,11 @@ Steps:
 - Get your access key from https://developer.spotify.com/console/get-current-user-saved-tracks/
 - Execute 
 ```
-java -jar spotify-2-beatsaber-assembly*.jar <token> <? optional download directory ?>
+java -jar spotify-2-beatsaber-assembly*.jar \
+--download-folder=download \
+--mode=playlist \
+--playlist-name="Chill Prog metal" \ 
+--api-key=<your api key here>
 ```
 - Watch it horribly match songs and download from beatsaver
 - ???

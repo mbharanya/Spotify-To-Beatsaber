@@ -12,6 +12,9 @@ libraryDependencies += "io.argonaut" %% "argonaut" % "6.2.3"
 libraryDependencies += "com.github.vickumar1981" %% "stringdistance" % "1.2.2"
 libraryDependencies += "commons-io" % "commons-io" % "2.6"
 libraryDependencies += "com.softwaremill.sttp.client3" %% "core" % "3.3.0"
-libraryDependencies += "com.typesafe.scala-logging" %% "scala-logging" % "3.9.3"
+libraryDependencies ++= Seq(
+  "org.backuity.clist" %% "clist-core" % "3.5.1",
+  "org.backuity.clist" %% "clist-macros" % "3.5.1" % "provided"
+)
 
 resolvers += Resolver.bintrayIvyRepo("sbt", "sbt-plugin-releases")
