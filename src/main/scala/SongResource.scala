@@ -1,7 +1,8 @@
 import java.io.Writer
-
 import argonaut.Parse
-import sttp.client._
+import sttp.client3._
+
+import java.net.URLEncoder
 
 trait SongResource {
   def find(artist: String, song: String)(implicit stringDistance: ((String, String) => Double)): Either[String, SearchResult]
@@ -22,9 +23,21 @@ class BeatsaverSongResource(val csvWriter: Writer) extends SongResource {
     val artist = inArtist.toLowerCase
     val song = inSong.toLowerCase
 
-
-    val request = basicRequest.get(uri"https://beatsaver.com/api/search/text/0?q=$artist $song")
-      .header("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36")
+    val request = basicRequest.get(uri"https://beatsaver.com/api/search/text/0?q=bad+lip+reading+seagulls&?automapper=1")
+      .header("authority","beatsaver.com")
+      .header("pragma","no-cache")
+      .header("cache-control","no-cache")
+      .header("sec-ch-ua","\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"90\", \"Google Chrome\";v=\"90\"")
+      .header("sec-ch-ua-mobile","?0")
+      .header("dnt","1")
+      .header("upgrade-insecure-requests","1")
+      .header("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0")
+      .header("accept","text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9")
+      .header("sec-fetch-site","none")
+      .header("sec-fetch-mode","navigate")
+      .header("sec-fetch-user","?1")
+      .header("sec-fetch-dest","document")
+      .header("accept-language","en-US,en;q=0.9")
 
     implicit val backend = HttpURLConnectionBackend()
     val response = request.send()
