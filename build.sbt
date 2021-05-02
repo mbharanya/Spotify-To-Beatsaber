@@ -12,9 +12,20 @@ libraryDependencies += "io.argonaut" %% "argonaut" % "6.2.3"
 libraryDependencies += "com.github.vickumar1981" %% "stringdistance" % "1.2.2"
 libraryDependencies += "commons-io" % "commons-io" % "2.6"
 libraryDependencies += "com.softwaremill.sttp.client3" %% "core" % "3.3.0"
+libraryDependencies += "com.softwaremill.sttp.client3" %% "core" % "3.3.0"
 libraryDependencies ++= Seq(
   "org.backuity.clist" %% "clist-core" % "3.5.1",
   "org.backuity.clist" %% "clist-macros" % "3.5.1" % "provided"
 )
+
+lazy val root = (project in file(".")).dependsOn(scalaProgressBar)
+
+lazy val scalaProgressBar = ProjectRef(uri("git://github.com/a8m/pb-scala.git#master"), "pb-scala")
+
+assemblyMergeStrategy in assembly := {
+  case PathList("META-INF", xs @ _*) => MergeStrategy.discard
+  case x => MergeStrategy.first
+}
+
 
 resolvers += Resolver.bintrayIvyRepo("sbt", "sbt-plugin-releases")

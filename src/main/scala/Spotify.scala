@@ -2,6 +2,7 @@
 import java.util.concurrent.Executors
 import com.wrapper.spotify.SpotifyApi
 import com.wrapper.spotify.model_objects.specification.{Paging, Playlist, PlaylistSimplified, SavedTrack, Track}
+import pb.ProgressBar
 
 import scala.compat.java8.FutureConverters.{toScala, _}
 import scala.concurrent.{ExecutionContext, Future}
@@ -11,8 +12,8 @@ class Spotify(accessToken: String) {
   implicit val executionCtx = ExecutionContext.fromExecutorService(Executors.newFixedThreadPool(1))
 
   def findAllSavedTracks(): Future[List[Song]] = {
-    val pagingFuture: Future[Paging[SavedTrack]] = toScala(spotifyApi.getUsersSavedTracks.offset(0).build.executeAsync)
-    fetchAllRecursively(pagingFuture).map(savedTracks => savedTracks.map(st => toSong(st.getTrack)))
+    val pagingFutureF = (offset: Int) => toScala(spotifyApi.getUsersSavedTracks.offset(offset).build.executeAsync)
+    fetchAllRecursively(pagingFutureF).map(savedTracks => savedTracks.map(st => toSong(st.getTrack)))
   }
 
   def toSong(track: Track) = Song(
@@ -32,8 +33,8 @@ class Spotify(accessToken: String) {
   }
 
   def getAllUsersPlaylists(userId: String): Future[List[PlaylistSimplified]] = {
-    val pagingFuture: Future[Paging[PlaylistSimplified]] = toScala(spotifyApi.getListOfUsersPlaylists(userId).build().executeAsync)
-    fetchAllRecursively(pagingFuture)
+    val pagingFutureF = (offset: Int) => toScala(spotifyApi.getListOfUsersPlaylists(userId).offset(offset).build().executeAsync)
+    fetchAllRecursively(pagingFutureF)
   }
 
   def getCurrentUsersPlaylistByName(playlistName: String) = {
@@ -52,7 +53,7 @@ class Spotify(accessToken: String) {
       playlist <- getCurrentUsersPlaylistByName(playlistName)
     } yield playlist
       .map(_.getId)
-      .map(id => toScala(spotifyApi.getPlaylistsItems(id).build().executeAsync))
+      .map(id => (offset:Int) => toScala(spotifyApi.getPlaylistsItems(id).offset(offset).build().executeAsync))
       .map(fetchAllRecursively(_))
     ).map(playlistTracks => {
         playlistTracks.map(track => {
@@ -62,7 +63,8 @@ class Spotify(accessToken: String) {
     })
   }
 
-  private def fetchAllRecursively[T](pagingFuture: Future[Paging[T]], offset: Int = 0, fetchedItems: List[T] = Nil): Future[List[T]] = {
+  private def fetchAllRecursively[T](pagingFutureF: Int => Future[Paging[T]], offset: Int = 0, fetchedItems: List[T] = Nil): Future[List[T]] = {
+    val pagingFuture = pagingFutureF(offset)
     val offsetTracks = for {
       paging <- pagingFuture
       items = paging.getItems.toList
@@ -72,12 +74,15 @@ class Spotify(accessToken: String) {
 
     offsetTracks.flatMap {
       case (newOffset, total, items) => {
-        print(".")
+        println("Fetching songs from Spotify")
+        var progressBar = new ProgressBar(total)
+        progressBar += newOffset
+
         if (offset + 20 > total) {
           println()
           Future(items ++ fetchedItems)
         } else {
-          fetchAllRecursively(pagingFuture, newOffset, items ++ fetchedItems)
+          fetchAllRecursively(pagingFutureF, newOffset, items ++ fetchedItems)
         }
       }
       case _ => {
