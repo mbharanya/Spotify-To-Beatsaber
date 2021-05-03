@@ -19,9 +19,9 @@ object SpotifyToBeatsaber extends CliMain[Unit](
   implicit val stringDistance: (String, String) => Double = Levenshtein.score
 
 
-  var apiKey        = opt[Option[String]](description = "Spotify API key, Get it from https://developer.spotify.com/console/get-current-user-saved-tracks/")
-  var downloadFolder = opt[String](default= ".", description = "folder to download the songs zips, default is current directory")
-  var mode = opt[String](default="all_tracks", description = "all_tracks | playlist")
+  var apiKey = opt[Option[String]](description = "Spotify API key, Get it from https://developer.spotify.com/console/get-current-user-saved-tracks/")
+  var downloadFolder = opt[String](default = ".", description = "folder to download the songs zips, default is current directory")
+  var mode = opt[String](default = "all_tracks", description = "all_tracks | playlist")
   var playlistName = opt[Option[String]](description = "if mode is set to playlist, download songs from that playlist instead")
 
   def run: Unit = {
@@ -38,7 +38,7 @@ object SpotifyToBeatsaber extends CliMain[Unit](
     case class Config(apiKey: String, downloadFolder: String)
     val spotify = new Spotify(apiKey.getOrElse("Api key is required"))
 
-    val songsToDownload = if (mode == "playlist"){
+    val songsToDownload = if (mode == "playlist") {
       spotify.getPlaylistTracks(playlistName.getOrElse(throw new IllegalStateException("Playlist name must be set in 'playlist' mode")))
     } else {
       spotify.findAllSavedTracks()

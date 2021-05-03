@@ -21,6 +21,14 @@ Options
    --mode=STRING            : all_tracks | playlist
    --playlist-name          : if mode is set to playlist, download songs from that playlist instead
 ```
+Example
+```sh
+# run for all saved tracks and save to folder 'download' in current directory
+java -jar spotify-2-beatsaber-assembly-0.3.jar --download-folder=download --mode=all_tracks --api-key=<api-key-here>
+# will only download from playlist "Chill Prog Metal"
+java -jar spotify-2-beatsaber-assembly-0.3.jar --download-folder=download --mode=playlist --playlist-name="Chill Prog Metal" --api-key=<api-key-here>
+```
+
 - Watch it horribly match songs and download from beatsaver
 - ???
 - Profit
